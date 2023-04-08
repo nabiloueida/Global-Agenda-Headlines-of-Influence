@@ -20,7 +20,7 @@ MonoBehaviour:
     potential for nutrient deficiencies and unpleasant bodily odors. Regardless of
     the controversy, the ban caused increased meat consumption and a surge in smelly
     emissions around the world.
-  _selectedCountry: {fileID: 11400000, guid: ce3db73a7eb10994698e4536a37cddf5, type: 2}
+  _selectedCountry: {fileID: 0}
   EffectOnAllies: 0
   EffectOnEnemies: 0
   EffectOnNeutral: 0

@@ -58,7 +58,7 @@ public class WorldHeadline : ScriptableObject
         else
         {
             Debug.LogWarning("No Selected country!");
-            return ConsequenceTextFormat;
+            return string.Format(ConsequenceTextFormat, SelectedCountry.Name);
         }
     }
 }

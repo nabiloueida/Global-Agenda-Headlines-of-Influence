@@ -9,6 +9,8 @@ public class HeadlineBinding : MonoBehaviour
 
     [SerializeField] private CountryVariable _lastCountrySelected;
 
+    [SerializeField] private GameManager gameManager;
+
     #region MonoBehaviour Methods
     private void OnEnable()
     {
@@ -32,9 +34,13 @@ public class HeadlineBinding : MonoBehaviour
         {
             _displayText.text = string.Format(_observedHeadline.HeadLineTextFormat, "______");
         }
-        else
+        else if(_lastCountrySelected.Value != null && gameManager.pickingHeadline == true)
         {
             _displayText.text = string.Format(_observedHeadline.HeadLineTextFormat, _lastCountrySelected.Value.Name);
+        }
+        else if(_lastCountrySelected.Value != null && gameManager.pickingHeadline == false)
+        {
+            _displayText.text = string.Format(_observedHeadline.ConsequenceTextFormat, _lastCountrySelected.Value.Name);
         }
     }
 }

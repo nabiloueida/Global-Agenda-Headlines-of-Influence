@@ -7,6 +7,10 @@ public class GameManager : MonoBehaviour
     [SerializeField] private CountryVariable _lastCountrySelected;
     [SerializeField] private GameObject PublishButton;
 
+    public bool pickingHeadline = true;
+    public bool publishingHeadline = false;
+
+
     // Start is called before the first frame update
     void Awake()
     {
@@ -20,6 +24,15 @@ public class GameManager : MonoBehaviour
         if(_lastCountrySelected.Value != null)
         {
             PublishButton.SetActive(true);
+            Debug.Log(PublishButton.activeInHierarchy);
         }
+    }
+
+    public void PublishHeadline()
+    {
+        pickingHeadline = false;
+        publishingHeadline = true;
+        _lastCountrySelected._variableUpdate?.Invoke();
+
     }
 }
