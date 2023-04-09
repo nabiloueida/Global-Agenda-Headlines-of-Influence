@@ -1,10 +1,9 @@
-
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SceneChanger : MonoBehaviour
+public class ScenesManager : MonoBehaviour
 {
 	public void ChangeScene(string sceneName)
 	{
@@ -15,4 +14,3 @@ public class SceneChanger : MonoBehaviour
 		Application.Quit ();
 	}
 }
-
