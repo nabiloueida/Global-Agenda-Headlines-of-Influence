@@ -21,6 +21,6 @@ MonoBehaviour:
     the controversy, the ban caused increased meat consumption and a surge in smelly
     emissions around the world.
   _selectedCountry: {fileID: 0}
-  EffectOnAllies: 0
-  EffectOnEnemies: 0
-  EffectOnNeutral: 0
+  EffectOnAllies: -2
+  EffectOnEnemies: 2
+  EffectOnNeutral: -1

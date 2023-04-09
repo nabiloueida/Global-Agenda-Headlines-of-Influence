@@ -12,9 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5063759ce0acb844daa22ad64c7773ad, type: 3}
   m_Name: Headline 2
   m_EditorClassIdentifier: 
-  HeadLineTextFormat: 
-  ConsequenceTextFormat: 
+  HeadLineTextFormat: '{0} Declares National "Pajama Day" Holiday, Results in Increased
+    Coziness and Decreased Productivity Worldwide
+
+'
+  ConsequenceTextFormat: The national pajama day holiday declared by {0} caused a
+    mixed response among nations. The idea was praised for promoting relaxation and
+    comfort, and on the other hand some expressed concern about the potential for
+    decreased productivity and a negative impact on the global economy.
   _selectedCountry: {fileID: 0}
-  EffectOnAllies: 0
-  EffectOnEnemies: 0
-  EffectOnNeutral: 0
+  EffectOnAllies: 2
+  EffectOnEnemies: -2
+  EffectOnNeutral: 1
