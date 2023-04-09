@@ -24,7 +24,7 @@ public class GameManager : MonoBehaviour
         if(_lastCountrySelected.Value != null)
         {
             PublishButton.SetActive(true);
-            Debug.Log(PublishButton.activeInHierarchy);
+            //Debug.Log(PublishButton.activeInHierarchy);
         }
     }
 
