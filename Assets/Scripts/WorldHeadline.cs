@@ -18,7 +18,7 @@ public class WorldHeadline : ScriptableObject
 
 
     [SerializeField]
-    private Country _selectedCountry;
+    public Country _selectedCountry;
     //TODO
     //Properties
     public Country SelectedCountry

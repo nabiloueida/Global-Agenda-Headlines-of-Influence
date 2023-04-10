@@ -2,6 +2,7 @@ using TMPro;
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 
 
 public class HeadlineBinding : MonoBehaviour
@@ -9,6 +10,7 @@ public class HeadlineBinding : MonoBehaviour
     [SerializeField] private WorldHeadline _observedHeadline;
 
     [SerializeField] private List<WorldHeadline> _allHeadlines;
+    [SerializeField] private List<WorldHeadline> _usedHeadlines;
     public int currentHeadlineIndex;
 
     [SerializeField] private TextMeshProUGUI _displayText;
@@ -40,7 +42,7 @@ public class HeadlineBinding : MonoBehaviour
 
     private void SetHeadline()
     {
-        if(_allHeadlines.Count > 0)
+        if(_allHeadlines.Count > 0 && gameManager.pickingHeadline)
         {
             currentHeadlineIndex = Random.Range(0, _allHeadlines.Count);
             Debug.Log(currentHeadlineIndex);
@@ -50,8 +52,20 @@ public class HeadlineBinding : MonoBehaviour
         }
         else
         {
-            Debug.Log("Out of Headlines");
+            Debug.Log("Out of Headlines, restarting scene");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
+    }
+
+    public void UseHeadline()
+    {
+        //_observedHeadline.HeadLineTextFormat = string.Format(_observedHeadline.HeadLineTextFormat, _lastCountrySelected.Value.Name);
+       // _observedHeadline.ConsequenceTextFormat = string.Format(_observedHeadline.ConsequenceTextFormat, _lastCountrySelected.Value.Name);
+       // _observedHeadline._selectedCountry = _lastCountrySelected.Value;
+        _usedHeadlines.Add(_observedHeadline);
+        _allHeadlines.RemoveAt(currentHeadlineIndex);
+        _lastCountrySelected.Value = null;
+        SetHeadline();
     }
 
     private void UpdateDisplayText()
