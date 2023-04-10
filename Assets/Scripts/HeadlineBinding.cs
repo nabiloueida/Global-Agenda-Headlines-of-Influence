@@ -55,7 +55,7 @@ public class HeadlineBinding : MonoBehaviour
         else
         {
             Debug.Log("Out of Headlines, restarting scene");
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            SceneManager.LoadScene(0);
         }
     }
 

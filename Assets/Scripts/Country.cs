@@ -10,6 +10,8 @@ public class Country : ScriptableObject
     public Dictionary<Country, int> Enemies;
     public Dictionary<Country, int> Neutral;
 
+    public List<Country> allCountries;
+
     public void UpdateAllRelationships(int onAllies, int onEnemies, int onNeutral)
     {
         foreach (KeyValuePair<Country, int> country in Allies)
