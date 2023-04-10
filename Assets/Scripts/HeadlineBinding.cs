@@ -21,6 +21,8 @@ public class HeadlineBinding : MonoBehaviour
 
     int totalHeadlines = 0;
 
+    [SerializeField] private string publishedCountryName;
+
     #region MonoBehaviour Methods
     private void OnEnable()
     {
@@ -78,12 +80,16 @@ public class HeadlineBinding : MonoBehaviour
         else if(_lastCountrySelected.Value != null && gameManager.pickingHeadline == true)
         {
             _displayText.text = string.Format(_observedHeadline.HeadLineTextFormat, _lastCountrySelected.Value.Name);
+            publishedCountryName = _lastCountrySelected.Value.Name;
             Debug.Log("Filled Headline");
         }
         else if(_lastCountrySelected.Value != null && gameManager.pickingHeadline == false)
         {
-            _displayText.text = string.Format(_observedHeadline.ConsequenceTextFormat, _lastCountrySelected.Value.Name);
+
+           // _displayText.text = string.Format(_observedHeadline.ConsequenceTextFormat, _lastCountrySelected.Value.Name);
+            _displayText.text = string.Format(_observedHeadline.ConsequenceTextFormat, publishedCountryName);
             Debug.Log("Headline Published, now showing Consequence");
+           // publishedCountryName = null;
         }
     }
 }
