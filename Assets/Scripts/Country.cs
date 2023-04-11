@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+public delegate void _countryUpdated();
+
 [CreateAssetMenu]
 public class Country : ScriptableObject
 {
