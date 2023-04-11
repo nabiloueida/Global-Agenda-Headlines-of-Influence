@@ -6,11 +6,24 @@ using UnityEngine;
 public class Country : ScriptableObject
 {
     public string Name;
+    public int Index;
+
+    public Dictionary<Country, int> relationshipDictionary;
+
     public Dictionary<Country, int> Allies;
     public Dictionary<Country, int> Enemies;
     public Dictionary<Country, int> Neutral;
 
     public List<Country> allCountries;
+
+    public void Awake()
+    {
+        //relationshipDictionary = new Dictionary<Country, int>();
+        //foreach(Country country in allCountries)
+        //{
+        //    relationshipDictionary.Add(country, 0);
+        //}
+    }
 
     public void UpdateAllRelationships(int onAllies, int onEnemies, int onNeutral)
     {
@@ -50,4 +63,6 @@ public class Country : ScriptableObject
             Neutral[affectedCountry] = Neutral[affectedCountry] + onNeutral;
         }
     }
+
+   
 }
