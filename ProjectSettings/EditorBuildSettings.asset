@@ -12,6 +12,6 @@ EditorBuildSettings:
     path: Assets/Scenes/HeadlineScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 0
-    path: Assets/Scenes/MapScene.unity
+    path: Assets/Scenes/Redundant/MapScene.unity
     guid: 2291447280e22414898895d342d3e973
   m_configObjects: {}
