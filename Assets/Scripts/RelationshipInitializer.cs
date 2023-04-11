@@ -1,11 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
+
 
 public class RelationshipInitializer : MonoBehaviour
 {
     public List<Country> _allCountries;
     private int[,] relationships;
+
+    public TMP_Text output;
 
     // Start is called before the first frame update
     void Start()
@@ -48,6 +53,7 @@ public class RelationshipInitializer : MonoBehaviour
                 }
 
                 Debug.Log(_allCountries[i] + " : " + _allCountries[j] + " Score = " + _allCountries[i].relationshipDictionary[_allCountries[j]]);
+                output.text += _allCountries[i] + " : " + _allCountries[j] + " Score = " + _allCountries[i].relationshipDictionary[_allCountries[j]] + " Next: ";
                 //Debug.Log(_allCountries[j] + " : " + _allCountries[i] + " Score = "  + _allCountries[j].relationshipDictionary[_allCountries[i]]);
             }
         }
@@ -77,4 +83,6 @@ public class RelationshipInitializer : MonoBehaviour
 
         return matrix;
     }
+
+
 }
