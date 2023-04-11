@@ -36,8 +36,16 @@ public class RelationshipManager : MonoBehaviour
                 else
                 {
                     relationshipGrid[i,j] = -1;
+                    
                 }
+                //SpawnTiles(i, j, relationshipGrid[i, j]);
             }
         }
+    }
+
+    private void SpawnTiles(int x, int y, int value)
+    {
+        GameObject g = new GameObject("X: "+ x + "Y: " + y);
+        g.transform.position = new Vector3(x, y);
     }
 }
