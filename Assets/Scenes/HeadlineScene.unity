@@ -4503,6 +4503,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1483572968}
   - component: {fileID: 1483572969}
+  - component: {fileID: 1483572970}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -4544,6 +4545,26 @@ MonoBehaviour:
   pickingHeadline: 1
   publishingHeadline: 0
   nextHeadline: 0
+--- !u!114 &1483572970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1483572967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c404f95968c5a684eaf7c59d57d7fcfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _allCountries:
+  - {fileID: 11400000, guid: ce3db73a7eb10994698e4536a37cddf5, type: 2}
+  - {fileID: 11400000, guid: e09537b1ee7a76344ae58e187b1bcebc, type: 2}
+  - {fileID: 11400000, guid: 7d944fdfd708138468502fc221da580b, type: 2}
+  - {fileID: 11400000, guid: bb2ce2e8acb1e2745b7f1ae4a10af4bd, type: 2}
+  - {fileID: 11400000, guid: ea2a88cd7aed90b4ba4684739dcf78a0, type: 2}
+  - {fileID: 11400000, guid: 9b9d206c7dc9a0e428ee10e2685de5dc, type: 2}
+  - {fileID: 11400000, guid: 489f3b3399ab9564b95f0f7636840823, type: 2}
 --- !u!1 &1569316031
 GameObject:
   m_ObjectHideFlags: 0
