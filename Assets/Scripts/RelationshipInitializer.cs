@@ -52,7 +52,7 @@ public class RelationshipInitializer : MonoBehaviour
                     //_allCountries[j].relationshipDictionary.Add(_allCountries[i], relationshipMatrix[j, i]);
                 }
 
-                Debug.Log(_allCountries[i] + " : " + _allCountries[j] + " Score = " + _allCountries[i].relationshipDictionary[_allCountries[j]]);
+               // Debug.Log(_allCountries[i] + " : " + _allCountries[j] + " Score = " + _allCountries[i].relationshipDictionary[_allCountries[j]]);
                
                 //output.text += _allCountries[i] + " : " + _allCountries[j] + " Score = " + _allCountries[i].relationshipDictionary[_allCountries[j]] + " Next: ";
                 //Debug.Log(_allCountries[j] + " : " + _allCountries[i] + " Score = "  + _allCountries[j].relationshipDictionary[_allCountries[i]]);

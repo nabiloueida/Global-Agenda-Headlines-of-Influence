@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public delegate void _countryUpdated();
+public delegate void CountryUpdated();
 
 [CreateAssetMenu]
 public class Country : ScriptableObject
@@ -17,6 +17,8 @@ public class Country : ScriptableObject
     public Dictionary<Country, int> Neutral;
 
     public List<Country> allCountries;
+
+    public CountryUpdated _countryUpdate;
 
     public void Awake()
     {
