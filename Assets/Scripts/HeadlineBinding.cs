@@ -47,7 +47,7 @@ public class HeadlineBinding : MonoBehaviour
         if(_allHeadlines.Count > 0 && gameManager.pickingHeadline)
         {
             currentHeadlineIndex = Random.Range(0, _allHeadlines.Count);
-            Debug.Log(currentHeadlineIndex);
+            //Debug.Log(currentHeadlineIndex);
             _observedHeadline = _allHeadlines[currentHeadlineIndex];
 
             _observedHeadline.headlineUpdated += UpdateDisplayText;
@@ -75,20 +75,20 @@ public class HeadlineBinding : MonoBehaviour
         if (_lastCountrySelected.Value == null)
         {
             _displayText.text = string.Format(_observedHeadline.HeadLineTextFormat, "______");
-            Debug.Log("Empty Headline");
+            //Debug.Log("Empty Headline");
         }
         else if(_lastCountrySelected.Value != null && gameManager.pickingHeadline == true)
         {
             _displayText.text = string.Format(_observedHeadline.HeadLineTextFormat, _lastCountrySelected.Value.Name);
             publishedCountryName = _lastCountrySelected.Value.Name;
-            Debug.Log("Filled Headline");
+           // Debug.Log("Filled Headline");
         }
         else if(_lastCountrySelected.Value != null && gameManager.pickingHeadline == false)
         {
 
            // _displayText.text = string.Format(_observedHeadline.ConsequenceTextFormat, _lastCountrySelected.Value.Name);
             _displayText.text = string.Format(_observedHeadline.ConsequenceTextFormat, publishedCountryName);
-            Debug.Log("Headline Published, now showing Consequence");
+            //Debug.Log("Headline Published, now showing Consequence");
            // publishedCountryName = null;
         }
     }

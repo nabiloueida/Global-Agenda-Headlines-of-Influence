@@ -22,11 +22,11 @@ public class Country : ScriptableObject
 
     public void Awake()
     {
-        relationshipDictionary = new Dictionary<Country, int>();
-        foreach(Country country in allCountries)
-        {
-            relationshipDictionary.Add(country, 0);
-        }
+        //relationshipDictionary = new Dictionary<Country, int>();
+        //foreach(Country country in allCountries)
+        //{
+        //    relationshipDictionary.Add(country, 0);
+        //}
     }
 
     public void UpdateAllRelationships(int onAllies, int onEnemies, int onNeutral)

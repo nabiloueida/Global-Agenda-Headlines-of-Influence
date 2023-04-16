@@ -28,7 +28,8 @@ public class ButtonBinding : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        Debug.Log("Total R Count " + country.relationshipDictionary.Count);
+        //PrintRelationships();
     }
 
 
@@ -42,7 +43,7 @@ public class ButtonBinding : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+       
     }
 
     public void updateButtonDisplay()
@@ -51,17 +52,26 @@ public class ButtonBinding : MonoBehaviour
         if(_lastCountrySelected.Value == null)
         {
             _displayText.text = country.Name;
-            Debug.Log("No the country selected");
+            //Debug.Log("No the country selected");
             //image.color = new Color
         }else if (_lastCountrySelected.Value == country) //Is this country
         {
             _displayText.text = country.Name;
-            Debug.Log("the country selected");
+            //Debug.Log("the country selected = " + country);
         }
         else //is another country
         {
             _displayText.text = country.Name + " " + _lastCountrySelected.Value.relationshipDictionary[country];
-            Debug.Log("Not the country selected");
+            // Debug.Log("the country selected" + _lastCountrySelected.Value + ", This country" + country + "Their relationship Score: " + _lastCountrySelected.Value.relationshipDictionary[country]);
+            //Debug.Log(_lastCountrySelected.Value.relationshipDictionary[country]);
+        }
+    }
+
+    public void PrintRelationships()
+    {
+        foreach (KeyValuePair<Country, int> relationship in country.relationshipDictionary)
+        {
+            Debug.Log("Country: " + country + ", Relationship with: " + relationship.Key + ", Score " + relationship.Value);
         }
     }
 }

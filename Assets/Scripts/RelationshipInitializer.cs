@@ -8,7 +8,7 @@ using TMPro;
 public class RelationshipInitializer : MonoBehaviour
 {
     public List<Country> _allCountries;
-    private int[,] relationships;
+    public int[,] relationships;
 
     public TMP_Text output;
 
@@ -27,16 +27,18 @@ public class RelationshipInitializer : MonoBehaviour
     private void AssignRelationships()
     {
         int[,] relationshipMatrix = GenerateRandomMatrix(_allCountries.Count, _allCountries.Count);
-        Debug.Log(relationshipMatrix);
+        //Debug.Log(relationshipMatrix);
         foreach(Country country in _allCountries)
         {
             country.allCountries = _allCountries;
         }
         for (int i = 0; i < _allCountries.Count; i++)
         {
+
+            _allCountries[i].relationshipDictionary = new Dictionary<Country, int>();
             for (int j = 0; j < _allCountries[i].allCountries.Count; j++)
             {
-                _allCountries[i].relationshipDictionary = new Dictionary<Country, int>();
+                
                 if(i == j)
                 {
 
@@ -49,16 +51,17 @@ public class RelationshipInitializer : MonoBehaviour
 
                     //trying this to add value to dictionary
                     _allCountries[i].relationshipDictionary.Add( _allCountries[j] , relationshipMatrix[i, j] );
+                    //Debug.Log("Added");
                     //_allCountries[j].relationshipDictionary.Add(_allCountries[i], relationshipMatrix[j, i]);
                 }
 
-               // Debug.Log(_allCountries[i] + " : " + _allCountries[j] + " Score = " + _allCountries[i].relationshipDictionary[_allCountries[j]]);
+               //Debug.Log(_allCountries[i] + " : " + _allCountries[j] + " Score = " + _allCountries[i].relationshipDictionary[_allCountries[j]]);
                
                 //output.text += _allCountries[i] + " : " + _allCountries[j] + " Score = " + _allCountries[i].relationshipDictionary[_allCountries[j]] + " Next: ";
                 //Debug.Log(_allCountries[j] + " : " + _allCountries[i] + " Score = "  + _allCountries[j].relationshipDictionary[_allCountries[i]]);
             }
         }
-        
+       // Debug.Log("Relationship Matrix = " + relationshipMatrix);
     }
 
     public int[,] GenerateRandomMatrix(int rows, int columns)
