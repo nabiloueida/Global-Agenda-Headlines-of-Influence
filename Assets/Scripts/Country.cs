@@ -20,6 +20,8 @@ public class Country : ScriptableObject
 
     public CountryUpdated _countryUpdate;
 
+    [SerializeField] public ButtonBinding _buttonBinding;
+
     public void Awake()
     {
         //relationshipDictionary = new Dictionary<Country, int>();
@@ -97,7 +99,7 @@ public class Country : ScriptableObject
             Debug.Log("After" + this + " + " + country + " = " + relationshipDictionary[country]);
             Debug.Log("After" + country + " + " + this + " = " + country.relationshipDictionary[this]);
         }
-        _countryUpdate?.Invoke();
+        _countryUpdate += _buttonBinding.updateButtonDisplay;
     }
    
 }

@@ -33,6 +33,11 @@ public class ButtonBinding : MonoBehaviour
         _lastCountrySelected._variableUpdate += updateButtonDisplay;
     }
 
+    private void Awake()
+    {
+       
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -53,6 +58,10 @@ public class ButtonBinding : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (gameManager.pickingHeadline == false && gameManager.publishingHeadline == true)
+        {
+            updateButtonDisplay();
+        }
        
     }
 
