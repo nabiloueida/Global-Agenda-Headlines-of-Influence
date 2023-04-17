@@ -68,5 +68,36 @@ public class Country : ScriptableObject
         }
     }
 
+    public void updateRelationships(int onAllies, int onEnemies, int onNeutral)
+    {
+        foreach(Country country in allCountries)
+        {
+            Debug.Log("Before" + this + " + " + country + " = " + relationshipDictionary[country]);
+            Debug.Log("Before" + country +  " + " + this + " = " + country.relationshipDictionary[this]);
+            if (relationshipDictionary[country] >= 80) //allied
+            {
+                relationshipDictionary[country] += onAllies;
+                country.relationshipDictionary[this] += onAllies;
+            }
+            else if (relationshipDictionary[country] >= 20) //neutral
+            {
+                relationshipDictionary[country] += onNeutral;
+                country.relationshipDictionary[this] += onNeutral;
+            }
+            else if(relationshipDictionary[country] == -1)
+            {
+                    relationshipDictionary[country] = -1;
+                country.relationshipDictionary[this] += -1;
+            }
+            else
+            {
+                relationshipDictionary[country] += onEnemies;
+                country.relationshipDictionary[this] += onEnemies;
+            }
+            Debug.Log("After" + this + " + " + country + " = " + relationshipDictionary[country]);
+            Debug.Log("After" + country + " + " + this + " = " + country.relationshipDictionary[this]);
+        }
+        _countryUpdate?.Invoke();
+    }
    
 }

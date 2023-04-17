@@ -37,6 +37,10 @@ public class WorldHeadline : ScriptableObject
     public int EffectOnEnemies = 0;
     public int EffectOnNeutral = 0;
 
+    private void Awake()
+    {
+        _selectedCountry = null;
+    }
     public string GetCurrentHeadlineText()
     {
         if (SelectedCountry == null)

@@ -1973,6 +1973,12 @@ MonoBehaviour:
   gameManager: {fileID: 1483572969}
   countryButton: {fileID: 406129848}
   country: {fileID: 11400000, guid: ce3db73a7eb10994698e4536a37cddf5, type: 2}
+  selectedColor: {r: 0.5882353, g: 0.5882353, b: 0.5882353, a: 0}
+  warColor: {r: 1, g: 0.16862746, b: 0.09411766, a: 0}
+  conflictColor: {r: 1, g: 0.54509807, b: 0.30588236, a: 0}
+  neutralColor: {r: 1, g: 0.9176471, b: 0.5176471, a: 0}
+  strategicColor: {r: 0.6039216, g: 0.7294118, b: 0.6039216, a: 0}
+  alliedColor: {r: 0.20000002, g: 0.5372549, b: 0.7058824, a: 0}
 --- !u!1 &449943598
 GameObject:
   m_ObjectHideFlags: 0
@@ -3926,6 +3932,12 @@ MonoBehaviour:
   gameManager: {fileID: 1483572969}
   countryButton: {fileID: 746846774}
   country: {fileID: 11400000, guid: e09537b1ee7a76344ae58e187b1bcebc, type: 2}
+  selectedColor: {r: 0.5882353, g: 0.5882353, b: 0.5882353, a: 0}
+  warColor: {r: 1, g: 0.16862746, b: 0.09411766, a: 0}
+  conflictColor: {r: 1, g: 0.54509807, b: 0.30588236, a: 0}
+  neutralColor: {r: 1, g: 0.9176471, b: 0.5176471, a: 0}
+  strategicColor: {r: 0.6039216, g: 0.7294118, b: 0.6039216, a: 0}
+  alliedColor: {r: 0.20000002, g: 0.5372549, b: 0.7058824, a: 0}
 --- !u!1001 &765630731
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5044,6 +5056,12 @@ MonoBehaviour:
   gameManager: {fileID: 1483572969}
   countryButton: {fileID: 858144941}
   country: {fileID: 11400000, guid: 9b9d206c7dc9a0e428ee10e2685de5dc, type: 2}
+  selectedColor: {r: 0.5882353, g: 0.5882353, b: 0.5882353, a: 0}
+  warColor: {r: 1, g: 0.16862746, b: 0.09411766, a: 0}
+  conflictColor: {r: 1, g: 0.54509807, b: 0.30588236, a: 0}
+  neutralColor: {r: 1, g: 0.9176471, b: 0.5176471, a: 0}
+  strategicColor: {r: 0.6039216, g: 0.7294118, b: 0.6039216, a: 0}
+  alliedColor: {r: 0.20000002, g: 0.5372549, b: 0.7058824, a: 0}
 --- !u!1 &870690749
 GameObject:
   m_ObjectHideFlags: 0
@@ -5436,6 +5454,7 @@ MonoBehaviour:
   _lastCountrySelected: {fileID: 11400000, guid: cf8b8c6b896165d46ae7696471652c2f, type: 2}
   gameManager: {fileID: 1483572969}
   publishedCountryName: 
+  selectedCountry: {fileID: 0}
 --- !u!1 &913532502
 GameObject:
   m_ObjectHideFlags: 0
@@ -5973,6 +5992,12 @@ MonoBehaviour:
   gameManager: {fileID: 1483572969}
   countryButton: {fileID: 1025045503}
   country: {fileID: 11400000, guid: 489f3b3399ab9564b95f0f7636840823, type: 2}
+  selectedColor: {r: 0.5882353, g: 0.5882353, b: 0.5882353, a: 0}
+  warColor: {r: 1, g: 0.16862746, b: 0.09411766, a: 0}
+  conflictColor: {r: 1, g: 0.54509807, b: 0.30588236, a: 0}
+  neutralColor: {r: 1, g: 0.9176471, b: 0.5176471, a: 0}
+  strategicColor: {r: 0.6039216, g: 0.7294118, b: 0.6039216, a: 0}
+  alliedColor: {r: 0.20000002, g: 0.5372549, b: 0.7058824, a: 0}
 --- !u!1 &1035048208
 GameObject:
   m_ObjectHideFlags: 0
@@ -7004,6 +7029,12 @@ MonoBehaviour:
   gameManager: {fileID: 1483572969}
   countryButton: {fileID: 1238607393}
   country: {fileID: 11400000, guid: 7d944fdfd708138468502fc221da580b, type: 2}
+  selectedColor: {r: 0.5882353, g: 0.5882353, b: 0.5882353, a: 0}
+  warColor: {r: 1, g: 0.16862746, b: 0.09411766, a: 0}
+  conflictColor: {r: 1, g: 0.54509807, b: 0.30588236, a: 0}
+  neutralColor: {r: 1, g: 0.9176471, b: 0.5176471, a: 0}
+  strategicColor: {r: 0.6039216, g: 0.7294118, b: 0.6039216, a: 0}
+  alliedColor: {r: 0.20000002, g: 0.5372549, b: 0.7058824, a: 0}
 --- !u!1 &1247695753
 GameObject:
   m_ObjectHideFlags: 0
@@ -7157,6 +7188,12 @@ MonoBehaviour:
   gameManager: {fileID: 1483572969}
   countryButton: {fileID: 1247695753}
   country: {fileID: 11400000, guid: bb2ce2e8acb1e2745b7f1ae4a10af4bd, type: 2}
+  selectedColor: {r: 0.5882353, g: 0.5882353, b: 0.5882353, a: 0}
+  warColor: {r: 1, g: 0.16862746, b: 0.09411766, a: 0}
+  conflictColor: {r: 1, g: 0.54509807, b: 0.30588236, a: 0}
+  neutralColor: {r: 1, g: 0.9176471, b: 0.5176471, a: 0}
+  strategicColor: {r: 0.6039216, g: 0.7294118, b: 0.6039216, a: 0}
+  alliedColor: {r: 0.20000002, g: 0.5372549, b: 0.7058824, a: 0}
 --- !u!1 &1249240887
 GameObject:
   m_ObjectHideFlags: 0
@@ -11151,6 +11188,12 @@ MonoBehaviour:
   gameManager: {fileID: 1483572969}
   countryButton: {fileID: 1973049973}
   country: {fileID: 11400000, guid: ea2a88cd7aed90b4ba4684739dcf78a0, type: 2}
+  selectedColor: {r: 0.5882353, g: 0.5882353, b: 0.5882353, a: 0}
+  warColor: {r: 1, g: 0.16862746, b: 0.09411766, a: 0}
+  conflictColor: {r: 1, g: 0.54509807, b: 0.30588236, a: 0}
+  neutralColor: {r: 1, g: 0.9176471, b: 0.5176471, a: 0}
+  strategicColor: {r: 0.6039216, g: 0.7294118, b: 0.6039216, a: 0}
+  alliedColor: {r: 0.20000002, g: 0.5372549, b: 0.7058824, a: 0}
 --- !u!1001 &2072493969
 PrefabInstance:
   m_ObjectHideFlags: 0

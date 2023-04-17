@@ -50,7 +50,13 @@ public class GameManager : MonoBehaviour
     {
         pickingHeadline = false;
         publishingHeadline = true;
+        // _lastCountrySelected.Value.updateRelationships(_headlineBinding);
+        _headlineBinding.PublishHeadline();
         _lastCountrySelected._variableUpdate?.Invoke();
+
+        //Here use method to affect relationships
+       // _lastCountrySelected.Value.
+       // _lastCountrySelected.Value = null;
         //Remove last country
         //_lastCountrySelected.Value = null;
 

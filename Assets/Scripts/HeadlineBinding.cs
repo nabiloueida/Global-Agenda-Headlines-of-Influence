@@ -22,6 +22,7 @@ public class HeadlineBinding : MonoBehaviour
     int totalHeadlines = 0;
 
     [SerializeField] private string publishedCountryName;
+    [SerializeField] private Country selectedCountry;
 
     #region MonoBehaviour Methods
     private void OnEnable()
@@ -49,7 +50,7 @@ public class HeadlineBinding : MonoBehaviour
             currentHeadlineIndex = Random.Range(0, _allHeadlines.Count);
             //Debug.Log(currentHeadlineIndex);
             _observedHeadline = _allHeadlines[currentHeadlineIndex];
-
+            _observedHeadline.SelectedCountry = null;
             _observedHeadline.headlineUpdated += UpdateDisplayText;
         }
         else
@@ -66,8 +67,17 @@ public class HeadlineBinding : MonoBehaviour
        // _observedHeadline._selectedCountry = _lastCountrySelected.Value;
         _usedHeadlines.Add(_observedHeadline);
         _allHeadlines.RemoveAt(currentHeadlineIndex);
+        _observedHeadline.SelectedCountry = selectedCountry;
         _lastCountrySelected.Value = null;
+        selectedCountry = null;
         SetHeadline();
+    }
+
+    public void PublishHeadline()
+    {
+       // selectedCountry.updateRelationships(_observedHeadline.EffectOnAllies, _observedHeadline.EffectOnEnemies, _observedHeadline.EffectOnNeutral);
+       _lastCountrySelected.Value.updateRelationships(_observedHeadline.EffectOnAllies, _observedHeadline.EffectOnEnemies, _observedHeadline.EffectOnNeutral);
+        Debug.Log("Pulished Headline");
     }
 
     private void UpdateDisplayText()
@@ -83,10 +93,11 @@ public class HeadlineBinding : MonoBehaviour
             publishedCountryName = _lastCountrySelected.Value.Name;
            // Debug.Log("Filled Headline");
         }
-        else if(_lastCountrySelected.Value != null && gameManager.pickingHeadline == false)
+        else if(_lastCountrySelected.Value != null && gameManager.pickingHeadline == false && selectedCountry == null)
         {
 
-           // _displayText.text = string.Format(_observedHeadline.ConsequenceTextFormat, _lastCountrySelected.Value.Name);
+            // _displayText.text = string.Format(_observedHeadline.ConsequenceTextFormat, _lastCountrySelected.Value.Name);
+            selectedCountry = _lastCountrySelected.Value;
             _displayText.text = string.Format(_observedHeadline.ConsequenceTextFormat, publishedCountryName);
             //Debug.Log("Headline Published, now showing Consequence");
            // publishedCountryName = null;
