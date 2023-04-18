@@ -21,4 +21,6 @@ MonoBehaviour:
   _selectedCountry: {fileID: 0}
   EffectOnAllies: -3
   EffectOnEnemies: 3
-  EffectOnNeutral: 1
+  EffectOnNeutral: 5
+  EffectOnConflict: 0
+  EffectOnStrategic: 0

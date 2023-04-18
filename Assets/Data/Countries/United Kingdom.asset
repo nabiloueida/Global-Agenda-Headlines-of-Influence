@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0822c725c553f924bb3d8f59cdcf7ac6, type: 3}
   m_Name: United Kingdom
   m_EditorClassIdentifier: 
-  Name: United Kingdom
+  Name: UK
   Index: 6
   allCountries:
   - {fileID: 11400000, guid: ce3db73a7eb10994698e4536a37cddf5, type: 2}
@@ -22,3 +22,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: ea2a88cd7aed90b4ba4684739dcf78a0, type: 2}
   - {fileID: 11400000, guid: 9b9d206c7dc9a0e428ee10e2685de5dc, type: 2}
   - {fileID: 11400000}
+  _buttonBinding: {fileID: 0}

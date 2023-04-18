@@ -20,7 +20,9 @@ MonoBehaviour:
     mixed response among nations. The idea was praised for promoting relaxation and
     comfort, and on the other hand some expressed concern about the potential for
     decreased productivity and a negative impact on the global economy.
-  _selectedCountry: {fileID: 11400000, guid: 489f3b3399ab9564b95f0f7636840823, type: 2}
-  EffectOnAllies: 6
-  EffectOnEnemies: -6
-  EffectOnNeutral: 3
+  _selectedCountry: {fileID: 0}
+  EffectOnAllies: 3
+  EffectOnEnemies: -7
+  EffectOnNeutral: 5
+  EffectOnConflict: 0
+  EffectOnStrategic: 0

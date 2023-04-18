@@ -19,6 +19,8 @@ MonoBehaviour:
     community. All countries look on and applaud the efforts of {0} during these
     trivial and tense times. We can all learn from their passionate hearts.
   _selectedCountry: {fileID: 0}
-  EffectOnAllies: 3
-  EffectOnEnemies: 1
-  EffectOnNeutral: 2
+  EffectOnAllies: 7
+  EffectOnEnemies: 3
+  EffectOnNeutral: 5
+  EffectOnConflict: 0
+  EffectOnStrategic: 0

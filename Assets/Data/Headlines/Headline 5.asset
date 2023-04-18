@@ -20,6 +20,8 @@ MonoBehaviour:
     progress and a negative impact on productivity. Despite the mixed reaction, the
     day led to increased excuses and a surge in procrastination around the world.
   _selectedCountry: {fileID: 0}
-  EffectOnAllies: 2
-  EffectOnEnemies: -2
-  EffectOnNeutral: 1
+  EffectOnAllies: 7
+  EffectOnEnemies: -7
+  EffectOnNeutral: 5
+  EffectOnConflict: 0
+  EffectOnStrategic: 0

@@ -22,6 +22,8 @@ MonoBehaviour:
     reaction, the law ultimately led to international insomnia and a surge in sleepless
     nights around the world.
   _selectedCountry: {fileID: 0}
-  EffectOnAllies: -2
-  EffectOnEnemies: 2
-  EffectOnNeutral: 1
+  EffectOnAllies: -3
+  EffectOnEnemies: 3
+  EffectOnNeutral: 5
+  EffectOnConflict: 0
+  EffectOnStrategic: 0

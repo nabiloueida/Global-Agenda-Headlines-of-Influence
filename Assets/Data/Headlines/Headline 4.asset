@@ -23,6 +23,8 @@ MonoBehaviour:
     the initiative, it set off events that led to increased diplomatic relations
     and improved perceptions of {0}'s government.
   _selectedCountry: {fileID: 0}
-  EffectOnAllies: 2
-  EffectOnEnemies: -2
-  EffectOnNeutral: 1
+  EffectOnAllies: 7
+  EffectOnEnemies: -7
+  EffectOnNeutral: 5
+  EffectOnConflict: 0
+  EffectOnStrategic: 0

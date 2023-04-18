@@ -20,7 +20,9 @@ MonoBehaviour:
     concern about the practicality and potential negative effects on tourism. Despite
     the initial confusion and debate, the wall led to aggravated tourists and a significant
     increase in international confusion.
-  _selectedCountry: {fileID: 0}
-  EffectOnAllies: -2
-  EffectOnEnemies: 2
-  EffectOnNeutral: 1
+  _selectedCountry: {fileID: 11400000, guid: bb2ce2e8acb1e2745b7f1ae4a10af4bd, type: 2}
+  EffectOnAllies: -3
+  EffectOnEnemies: 3
+  EffectOnNeutral: 5
+  EffectOnConflict: 0
+  EffectOnStrategic: 0
