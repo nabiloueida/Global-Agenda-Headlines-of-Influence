@@ -58,10 +58,10 @@ public class ButtonBinding : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (gameManager.pickingHeadline == false && gameManager.publishingHeadline == true)
-        {
+       // if (gameManager.pickingHeadline == false && gameManager.publishingHeadline == true)
+      //  {
             updateButtonDisplay();
-        }
+       // }
        
     }
 

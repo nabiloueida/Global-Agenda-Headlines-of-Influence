@@ -70,7 +70,7 @@ public class Country : ScriptableObject
         }
     }
 
-    public void updateRelationships(int onAllies, int onEnemies, int onNeutral)
+    public void updateRelationships(int onAllies, int onStrategic, int onNeutral, int onConflict, int onEnemies)
     {
         foreach(Country country in allCountries)
         {
@@ -78,23 +78,50 @@ public class Country : ScriptableObject
             Debug.Log("Before" + country +  " + " + this + " = " + country.relationshipDictionary[this]);
             if (relationshipDictionary[country] >= 80) //allied
             {
-                relationshipDictionary[country] += onAllies;
-                country.relationshipDictionary[this] += onAllies;
+                if(relationshipDictionary[country] + onAllies > 100)
+                {
+                    relationshipDictionary[country] = 100;
+                    country.relationshipDictionary[this] = 100;
+                }
+                else
+                {
+                    relationshipDictionary[country] += onAllies;
+                    country.relationshipDictionary[this] += onAllies;
+                }
             }
-            else if (relationshipDictionary[country] >= 20) //neutral
+            else if(relationshipDictionary[country] >= 60) //strategic
+            {
+                relationshipDictionary[country] += onStrategic;
+                country.relationshipDictionary[this] += onStrategic;
+            }
+            else if (relationshipDictionary[country] >= 40) //neutral
             {
                 relationshipDictionary[country] += onNeutral;
                 country.relationshipDictionary[this] += onNeutral;
             }
-            else if(relationshipDictionary[country] == -1)
+            else if (relationshipDictionary[country] >= 20) //Conflict
+            {
+                relationshipDictionary[country] += onConflict;
+                country.relationshipDictionary[this] += onConflict;
+            }
+            else if(relationshipDictionary[country] == -1)  //same country
             {
                     relationshipDictionary[country] = -1;
                 country.relationshipDictionary[this] += -1;
             }
-            else
+            else // Enemies / War
             {
-                relationshipDictionary[country] += onEnemies;
-                country.relationshipDictionary[this] += onEnemies;
+                if(relationshipDictionary[country] + onEnemies < 1)
+                {
+                    relationshipDictionary[country] = 1;
+                    country.relationshipDictionary[this] = 1;
+                }
+                else
+                {
+                    relationshipDictionary[country] += onEnemies;
+                    country.relationshipDictionary[this] += onEnemies;
+                }
+                
             }
             Debug.Log("After" + this + " + " + country + " = " + relationshipDictionary[country]);
             Debug.Log("After" + country + " + " + this + " = " + country.relationshipDictionary[this]);

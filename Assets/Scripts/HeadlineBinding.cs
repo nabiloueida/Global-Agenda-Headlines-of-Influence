@@ -76,7 +76,7 @@ public class HeadlineBinding : MonoBehaviour
     public void PublishHeadline()
     {
        // selectedCountry.updateRelationships(_observedHeadline.EffectOnAllies, _observedHeadline.EffectOnEnemies, _observedHeadline.EffectOnNeutral);
-       _lastCountrySelected.Value.updateRelationships(_observedHeadline.EffectOnAllies, _observedHeadline.EffectOnEnemies, _observedHeadline.EffectOnNeutral);
+       _lastCountrySelected.Value.updateRelationships(_observedHeadline.EffectOnAllies, _observedHeadline.EffectOnStrategic, _observedHeadline.EffectOnNeutral, _observedHeadline.EffectOnConflict, _observedHeadline.EffectOnEnemies);
         Debug.Log("Pulished Headline");
     }
 

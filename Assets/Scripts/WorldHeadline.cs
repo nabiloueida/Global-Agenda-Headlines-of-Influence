@@ -33,11 +33,13 @@ public class WorldHeadline : ScriptableObject
             headlineUpdated?.Invoke();
         }
     }
+
     public int EffectOnAllies = 0;
-    public int EffectOnEnemies = 0;
+    public int EffectOnStrategic = 0;
     public int EffectOnNeutral = 0;
     public int EffectOnConflict = 0;
-    public int EffectOnStrategic = 0;
+    public int EffectOnEnemies = 0;
+    
 
     private void Awake()
     {
