@@ -19,9 +19,9 @@ MonoBehaviour:
     were compromised and chaos reigned, economies around the world were thrown into
     disarray. The result was a destabilized global economy and a sense of uncertainty
     that permeated every aspect of life.
-  _selectedCountry: {fileID: 11400000, guid: bb2ce2e8acb1e2745b7f1ae4a10af4bd, type: 2}
+  _selectedCountry: {fileID: 0}
   EffectOnAllies: -5
-  EffectOnEnemies: -5
+  EffectOnStrategic: -5
   EffectOnNeutral: -5
-  EffectOnConflict: 0
-  EffectOnStrategic: 0
+  EffectOnConflict: -5
+  EffectOnEnemies: -5

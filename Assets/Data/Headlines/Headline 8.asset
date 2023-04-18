@@ -18,9 +18,9 @@ MonoBehaviour:
     developing nations, {0} has valiantly stepped in to lend its support to the international
     community. All countries look on and applaud the efforts of {0} during these
     trivial and tense times. We can all learn from their passionate hearts.
-  _selectedCountry: {fileID: 0}
+  _selectedCountry: {fileID: 11400000, guid: bb2ce2e8acb1e2745b7f1ae4a10af4bd, type: 2}
   EffectOnAllies: 7
-  EffectOnEnemies: 3
+  EffectOnStrategic: 6
   EffectOnNeutral: 5
-  EffectOnConflict: 0
-  EffectOnStrategic: 0
+  EffectOnConflict: 4
+  EffectOnEnemies: 3

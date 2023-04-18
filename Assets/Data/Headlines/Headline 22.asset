@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5063759ce0acb844daa22ad64c7773ad, type: 3}
+  m_Name: Headline 22
+  m_EditorClassIdentifier: 
+  HeadLineTextFormat: "{0} Implements Controversial Economic Policies by making interest
+    Rates 400%. Results in Increased Inequality and Decreased Prosperity Worldwide\r."
+  ConsequenceTextFormat: '{0} implementation of controversial economic policies caused
+    a significant stir among nations. While some praised it as a bold and innovative
+    approach to economic growth, others condemned it as harmful and exacerbating
+    inequality. Regardless of the debate, the resulting increase in inequality and
+    the decrease in prosperity were widely noted. '
+  _selectedCountry: {fileID: 0}
+  EffectOnAllies: -3
+  EffectOnStrategic: -4
+  EffectOnNeutral: -5
+  EffectOnConflict: 4
+  EffectOnEnemies: 3

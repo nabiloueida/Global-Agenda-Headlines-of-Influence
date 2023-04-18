@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5063759ce0acb844daa22ad64c7773ad, type: 3}
+  m_Name: Headline 11
+  m_EditorClassIdentifier: 
+  HeadLineTextFormat: "{0} has declared national \u201CThank You\u201D day for its
+    citizens and its allied nations.\r\n"
+  ConsequenceTextFormat: "{0} has encouraged its country people to take a day to
+    say \u201Cthank you.\u201D People are given emails of recipients to send a nice
+    message and encouraging words. There was speculation that internet trolls or
+    other nations were infiltrating and spreading hatred but some countries had security
+    measures ready to make sure that hateful messages were filtered out. This day
+    raised the spirits of many and made others envious and jealous.\r"
+  _selectedCountry: {fileID: 0}
+  EffectOnAllies: 7
+  EffectOnStrategic: 6
+  EffectOnNeutral: -5
+  EffectOnConflict: -6
+  EffectOnEnemies: -7

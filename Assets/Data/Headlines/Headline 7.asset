@@ -23,7 +23,7 @@ MonoBehaviour:
     nights around the world.
   _selectedCountry: {fileID: 0}
   EffectOnAllies: -3
-  EffectOnEnemies: 3
+  EffectOnStrategic: -4
   EffectOnNeutral: 5
-  EffectOnConflict: 0
-  EffectOnStrategic: 0
+  EffectOnConflict: 4
+  EffectOnEnemies: 3

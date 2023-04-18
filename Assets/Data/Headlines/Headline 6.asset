@@ -22,7 +22,7 @@ MonoBehaviour:
     increase in international confusion.
   _selectedCountry: {fileID: 11400000, guid: bb2ce2e8acb1e2745b7f1ae4a10af4bd, type: 2}
   EffectOnAllies: -3
-  EffectOnEnemies: 3
+  EffectOnStrategic: -4
   EffectOnNeutral: 5
-  EffectOnConflict: 0
-  EffectOnStrategic: 0
+  EffectOnConflict: 4
+  EffectOnEnemies: 3

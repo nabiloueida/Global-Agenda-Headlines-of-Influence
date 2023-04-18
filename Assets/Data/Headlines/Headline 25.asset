@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5063759ce0acb844daa22ad64c7773ad, type: 3}
+  m_Name: Headline 25
+  m_EditorClassIdentifier: 
+  HeadLineTextFormat: '{0} Proposes Universal Basic Income, Results in Increased
+    Equality and Decreased Workforce Participation Worldwide.'
+  ConsequenceTextFormat: '{0} proposal of a Universal Basic Income (UBI) was met
+    with a mix of excitement and skepticism from the international community. While
+    some hailed it as a necessary step towards reducing inequality and increasing
+    social mobility, others questioned its economic feasibility and the potential
+    impact on workforce participation. Furthermore, some countries viewed the UBI
+    as a threat to their own economic systems and political power, leading to increased
+    criticism and opposition. '
+  _selectedCountry: {fileID: 0}
+  EffectOnAllies: 7
+  EffectOnStrategic: 6
+  EffectOnNeutral: -5
+  EffectOnConflict: 4
+  EffectOnEnemies: 3

@@ -21,7 +21,7 @@ MonoBehaviour:
     day led to increased excuses and a surge in procrastination around the world.
   _selectedCountry: {fileID: 0}
   EffectOnAllies: 7
-  EffectOnEnemies: -7
+  EffectOnStrategic: 6
   EffectOnNeutral: 5
-  EffectOnConflict: 0
-  EffectOnStrategic: 0
+  EffectOnConflict: -6
+  EffectOnEnemies: -7

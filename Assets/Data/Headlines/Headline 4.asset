@@ -22,9 +22,9 @@ MonoBehaviour:
     and positivity in international relations. Despite the initial confusion surrounding
     the initiative, it set off events that led to increased diplomatic relations
     and improved perceptions of {0}'s government.
-  _selectedCountry: {fileID: 0}
+  _selectedCountry: {fileID: 11400000, guid: bb2ce2e8acb1e2745b7f1ae4a10af4bd, type: 2}
   EffectOnAllies: 7
-  EffectOnEnemies: -7
+  EffectOnStrategic: 6
   EffectOnNeutral: 5
-  EffectOnConflict: 0
-  EffectOnStrategic: 0
+  EffectOnConflict: -6
+  EffectOnEnemies: -7

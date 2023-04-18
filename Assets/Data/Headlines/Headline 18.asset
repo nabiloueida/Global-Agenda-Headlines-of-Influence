@@ -10,16 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5063759ce0acb844daa22ad64c7773ad, type: 3}
-  m_Name: Headline 2
+  m_Name: Headline 18
   m_EditorClassIdentifier: 
-  HeadLineTextFormat: '{0} Declares National "Pajama Day" Holiday, Results in Increased
-    Coziness and Decreased Productivity Worldwide
-
-'
-  ConsequenceTextFormat: The national pajama day holiday declared by {0} caused a
-    mixed response among nations. The idea was praised for promoting relaxation and
-    comfort, and on the other hand some expressed concern about the potential for
-    decreased productivity and a negative impact on the global economy.
+  HeadLineTextFormat: "{0} Launches Nationwide Mental Health Campaign, Results in
+    Increased Awareness and Decreased Stigma Worldwide\r"
+  ConsequenceTextFormat: "{0} nationwide mental health campaign was met with widespread
+    appreciation and recognition from the international community. The effort towards
+    increasing awareness and reducing stigma surrounding mental health was seen as
+    an important step towards promoting human dignity and well-being. \r"
   _selectedCountry: {fileID: 0}
   EffectOnAllies: 7
   EffectOnStrategic: 6

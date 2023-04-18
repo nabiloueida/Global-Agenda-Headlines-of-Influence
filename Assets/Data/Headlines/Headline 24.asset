@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5063759ce0acb844daa22ad64c7773ad, type: 3}
+  m_Name: Headline 24
+  m_EditorClassIdentifier: 
+  HeadLineTextFormat: '{0}''s government announces end of all economic sanctions
+    against long time enemies.'
+  ConsequenceTextFormat: "Trade increases greatly with allies and enemies of {0}
+    but it heavily affects the neutral countries that they use to trade with since
+    those neutral countries were thriving off of {0} conflict.\r"
+  _selectedCountry: {fileID: 0}
+  EffectOnAllies: 7
+  EffectOnStrategic: 6
+  EffectOnNeutral: -5
+  EffectOnConflict: 4
+  EffectOnEnemies: 3
