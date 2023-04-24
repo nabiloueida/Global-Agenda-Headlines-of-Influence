@@ -29,4 +29,9 @@ public class ArduinoManager : MonoBehaviour
     {
         serialPort.Close();
     }
+
+    public void changeCountryColor(int id, int r, int g, int b)
+    {
+
+    }
 }
