@@ -2510,6 +2510,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Click
       objectReference: {fileID: 0}
+    - target: {fileID: 563548095168398085, guid: def49c9b00f5e7047a116d7725e414bd, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 563548095168398104, guid: def49c9b00f5e7047a116d7725e414bd, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -2554,6 +2558,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 563548095168398106, guid: def49c9b00f5e7047a116d7725e414bd, type: 3}
+      propertyPath: clickPlay
+      value: 
+      objectReference: {fileID: 487146140}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: def49c9b00f5e7047a116d7725e414bd, type: 3}
 --- !u!82 &487146140 stripped
