@@ -13,9 +13,11 @@ MonoBehaviour:
   m_Name: United Kingdom
   m_EditorClassIdentifier: 
   Name: UK
-  Index: 6
+  Index: 8
   allCountries:
   - {fileID: 11400000, guid: ce3db73a7eb10994698e4536a37cddf5, type: 2}
+  - {fileID: 11400000, guid: 539821e86f075374b96408a82565beeb, type: 2}
+  - {fileID: 11400000, guid: b7f950b49300c4e4687a0d67ed11299a, type: 2}
   - {fileID: 11400000, guid: e09537b1ee7a76344ae58e187b1bcebc, type: 2}
   - {fileID: 11400000, guid: 7d944fdfd708138468502fc221da580b, type: 2}
   - {fileID: 11400000, guid: bb2ce2e8acb1e2745b7f1ae4a10af4bd, type: 2}

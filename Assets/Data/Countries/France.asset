@@ -13,12 +13,15 @@ MonoBehaviour:
   m_Name: France
   m_EditorClassIdentifier: 
   Name: France
-  Index: 2
+  Index: 4
   allCountries:
   - {fileID: 11400000, guid: ce3db73a7eb10994698e4536a37cddf5, type: 2}
+  - {fileID: 11400000, guid: 539821e86f075374b96408a82565beeb, type: 2}
+  - {fileID: 11400000, guid: b7f950b49300c4e4687a0d67ed11299a, type: 2}
   - {fileID: 11400000, guid: e09537b1ee7a76344ae58e187b1bcebc, type: 2}
   - {fileID: 11400000}
   - {fileID: 11400000, guid: bb2ce2e8acb1e2745b7f1ae4a10af4bd, type: 2}
   - {fileID: 11400000, guid: ea2a88cd7aed90b4ba4684739dcf78a0, type: 2}
   - {fileID: 11400000, guid: 9b9d206c7dc9a0e428ee10e2685de5dc, type: 2}
   - {fileID: 11400000, guid: 489f3b3399ab9564b95f0f7636840823, type: 2}
+  _buttonBinding: {fileID: 0}
