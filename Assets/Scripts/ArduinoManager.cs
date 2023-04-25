@@ -26,7 +26,7 @@ public class ArduinoManager : MonoBehaviour
         changeCountryColor(7, 0, 255, 0); // 7 - Australia
         changeCountryColor(8, 255, 0, 0); // 8 - China
         Debug.Log(data);
-        //serialPort.Write(data);
+        serialPort.Write(data);
     }
 
     void Update()
@@ -70,10 +70,10 @@ public class ArduinoManager : MonoBehaviour
         //}
         //else
         //{
-            data = string.Format("{0},{1},{2},{3}\n", id, r, g, b);
+            data += string.Format("{0},{1},{2},{3}\n", id, r, g, b);
         //}
 
         // Debug.Log(string.Format("{0},{1},{2},{3}\n", id, r, g, b));
-        serialPort.Write(data);
+       // serialPort.Write(data);
     }
 }
