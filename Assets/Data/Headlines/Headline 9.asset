@@ -12,15 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5063759ce0acb844daa22ad64c7773ad, type: 3}
   m_Name: Headline 9
   m_EditorClassIdentifier: 
-  HeadLineTextFormat: "Currency near collapse in {0}\u2019s after the government\u2019s
-    all in push into investing into the crypto market."
-  ConsequenceTextFormat: "An absolutely disastrous outcome for citizens of {0}. Everyone\u2019s
-    money is completely gone. The country is a mess. The government is coming under
-    heavy criticism from the international community especially coming from their
-    allies. {0} has a long way to go to recover from this mess."
-  _selectedCountry: {fileID: 11400000, guid: bb2ce2e8acb1e2745b7f1ae4a10af4bd, type: 2}
-  EffectOnAllies: -3
-  EffectOnStrategic: -4
-  EffectOnNeutral: 5
-  EffectOnConflict: 4
-  EffectOnEnemies: 3
+  HeadLineTextFormat: '{0} Declares National "Pajama Day" Holiday, Results in Increased
+    Coziness and Decreased Productivity Worldwide
+
+'
+  ConsequenceTextFormat: The national pajama day holiday declared by {0} caused a
+    mixed response among nations. The idea was praised for promoting relaxation and
+    comfort, and on the other hand some expressed concern about the potential for
+    decreased productivity and a negative impact on the global economy.
+  _selectedCountry: {fileID: 0}
+  EffectOnAllies: 3
+  EffectOnStrategic: 5
+  EffectOnNeutral: 7
+  EffectOnConflict: -5
+  EffectOnEnemies: -3

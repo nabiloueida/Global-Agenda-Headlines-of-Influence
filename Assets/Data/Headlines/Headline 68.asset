@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5063759ce0acb844daa22ad64c7773ad, type: 3}
+  m_Name: Headline 68
+  m_EditorClassIdentifier: 
+  HeadLineTextFormat: '{0} Launches new satellite to spy on allied countries. Their
+    official statement was that they wanted to monitor and protect their fellow nations.
+    But images show that the satellites were monitoring the intimate and scandalous
+    lives of allied government officials.'
+  ConsequenceTextFormat: "{0}\u2019s launch of the new military grade satellite to
+    reportedly keep their allies safe but reports suggest that this was used to spy
+    on the intimate lives of government officials to gain leverage over them. This
+    has led to dire consequences with their allies as they view this as a breach
+    of trust while neutral nations are yet to give an official statement regarding
+    this.\r"
+  _selectedCountry: {fileID: 0}
+  EffectOnAllies: -3
+  EffectOnStrategic: -5
+  EffectOnNeutral: -7
+  EffectOnConflict: 0
+  EffectOnEnemies: 0

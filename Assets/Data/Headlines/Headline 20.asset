@@ -12,16 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5063759ce0acb844daa22ad64c7773ad, type: 3}
   m_Name: Headline 20
   m_EditorClassIdentifier: 
-  HeadLineTextFormat: '{0} Enacts Strict Immigration Policy, Results in Increased
-    Hostility and Decreased Diversity Worldwide'
-  ConsequenceTextFormat: '{0} strict immigration policy was met with a mixed response
-    among nations. While some praised it as a necessary measure to protect national
-    security and sovereignty, others criticized it as discriminatory and harmful
-    to global diversity. Nevertheless, the resulting increase in hostility towards
-    immigrants and the decrease in cultural exchange were widely acknowledged.'
+  HeadLineTextFormat: "{0} Bans Social Media Platforms, Results in Increased Censorship
+    and Decreased Freedom of Expression.\r"
+  ConsequenceTextFormat: "{0} ban on social media platforms was met with a mix of
+    outrage and support from the international community. While some applauded it
+    as a necessary measure to combat disinformation and protect national security,
+    others condemned it as a blatant violation of freedom of expression and human
+    rights. Regardless of the debate, the resulting increase in censorship and the
+    decrease in freedom of expression were widely acknowledged. \r"
   _selectedCountry: {fileID: 0}
   EffectOnAllies: -3
-  EffectOnStrategic: -4
-  EffectOnNeutral: 5
-  EffectOnConflict: 4
+  EffectOnStrategic: -5
+  EffectOnNeutral: -7
+  EffectOnConflict: 5
   EffectOnEnemies: 3

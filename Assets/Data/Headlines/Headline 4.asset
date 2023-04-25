@@ -12,19 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5063759ce0acb844daa22ad64c7773ad, type: 3}
   m_Name: Headline 4
   m_EditorClassIdentifier: 
-  HeadLineTextFormat: '{0} Proposes "International Compliment Day" Initiative, Causes
-    Confusion and Increased Diplomatic Relations
-
-'
-  ConsequenceTextFormat: The international compliment day initiative proposed by
-    {0} led to a variety of reactions from other countries. While some were skeptical
-    of the initiative, others saw it as a positive step towards promoting kindness
-    and positivity in international relations. Despite the initial confusion surrounding
-    the initiative, it set off events that led to increased diplomatic relations
-    and improved perceptions of {0}'s government.
-  _selectedCountry: {fileID: 11400000, guid: bb2ce2e8acb1e2745b7f1ae4a10af4bd, type: 2}
-  EffectOnAllies: 7
-  EffectOnStrategic: 6
-  EffectOnNeutral: 5
-  EffectOnConflict: -6
-  EffectOnEnemies: -7
+  HeadLineTextFormat: '{0}  Enforces Mandatory Dance Breaks, Results in Increased
+    Grooving and Totalitarian flash mobs across the world.'
+  ConsequenceTextFormat: '{0}''s enforcement of mandatory dance breaks was met with
+    a mix of amusement and disbelief from the international community. While some
+    praised the effort towards promoting physical activity and joy, others expressed
+    concern about the potential for decreased focus and work productivity and fears
+    of embarrassing forced dancing in public areas'
+  _selectedCountry: {fileID: 0}
+  EffectOnAllies: 3
+  EffectOnStrategic: 5
+  EffectOnNeutral: -7
+  EffectOnConflict: -5
+  EffectOnEnemies: -3

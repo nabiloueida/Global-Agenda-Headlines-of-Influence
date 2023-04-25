@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5063759ce0acb844daa22ad64c7773ad, type: 3}
+  m_Name: Headline 71
+  m_EditorClassIdentifier: 
+  HeadLineTextFormat: "Reports suggest that {0}\u2019s are facing an agricultural
+    famine and as a result The President of {0} has opened up peace talks with the
+    enemy countries to try and negotiate a trade deal of sorts to help them with
+    the food shortage.\r"
+  ConsequenceTextFormat: "As a result of the ongoing famine, {0}\u2019s president
+    has started peace negotiations to cease fire among the enemy nations to try and
+    help them during these tough times. The talks ended well and it seems that they
+    are willing to help. For Now\u2026\r"
+  _selectedCountry: {fileID: 0}
+  EffectOnAllies: 0
+  EffectOnStrategic: 0
+  EffectOnNeutral: 0
+  EffectOnConflict: 5
+  EffectOnEnemies: 3

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5063759ce0acb844daa22ad64c7773ad, type: 3}
+  m_Name: Headline 77
+  m_EditorClassIdentifier: 
+  HeadLineTextFormat: '{0} Accidentally Insults Enemy Nation''s Cuisine, Relations
+    Sour.
+
+'
+  ConsequenceTextFormat: 'A careless comment made by a {0}''s government official
+    regarding the taste of an enemy nation''s cuisine has led to widespread outrage
+    and hurt feelings. Despite attempts at apology and diplomacy, the damage has
+    been done, and relations between the two countries have taken a sharp downturn.
+
+'
+  _selectedCountry: {fileID: 0}
+  EffectOnAllies: 0
+  EffectOnStrategic: 0
+  EffectOnNeutral: 0
+  EffectOnConflict: -5
+  EffectOnEnemies: -3

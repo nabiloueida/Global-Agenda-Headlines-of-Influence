@@ -12,17 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5063759ce0acb844daa22ad64c7773ad, type: 3}
   m_Name: Headline 29
   m_EditorClassIdentifier: 
-  HeadLineTextFormat: "{0} Introduces Carbon Tax, Results in Decreased Carbon Emissions
-    and Increased Tensions with Fossil Fuel Industries.\r"
-  ConsequenceTextFormat: "{0}'s introduction of a carbon tax was met with both praise
-    and criticism from the international community. While the move was seen as a
-    positive step towards addressing climate change and reducing carbon emissions,
-    some fossil fuel industries expressed concerns about the impact on their business.
-    The controversy raised questions about the balance between economic growth and
-    environmental responsibility.\r"
+  HeadLineTextFormat: '{0} Replaces banned Plastic Straws with pig waste straws,
+    Results in Reduced Pollution and increased international disgust, while some
+    countries deemed it Haram and Non Kosher.
+
+'
+  ConsequenceTextFormat: '{0}''s decision to replace plastic straws with pig waste
+    was met with international disgust. Even though it reduced usage of plastic and
+    Nitrate Emissions, countries found it as a disgusting alternative to plastic.'
   _selectedCountry: {fileID: 0}
   EffectOnAllies: -3
-  EffectOnStrategic: -4
-  EffectOnNeutral: 5
-  EffectOnConflict: -6
-  EffectOnEnemies: -7
+  EffectOnStrategic: -5
+  EffectOnNeutral: -7
+  EffectOnConflict: -5
+  EffectOnEnemies: -3

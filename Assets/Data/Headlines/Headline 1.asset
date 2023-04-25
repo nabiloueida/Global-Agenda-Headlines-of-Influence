@@ -12,17 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5063759ce0acb844daa22ad64c7773ad, type: 3}
   m_Name: Headline 1
   m_EditorClassIdentifier: 
-  HeadLineTextFormat: '{0} Bans All Vegetables, Results in Increased Meat Consumption
-    and Smelly Emissions Worldwide'
-  ConsequenceTextFormat: The ban on all vegetables implemented by {0} caused a mixed
-    reaction among other countries. While some appreciated the promotion of carnivorous
-    diets and a reduction in methane emissions, others expressed concern about the
-    potential for nutrient deficiencies and unpleasant bodily odors. Regardless of
-    the controversy, the ban caused increased meat consumption and a surge in smelly
-    emissions around the world.
+  HeadLineTextFormat: "{0} has declared national \u201CThank You\u201D day for its
+    citizens and its allied nations only. "
+  ConsequenceTextFormat: "{0} has encouraged its country people to take a day to
+    say \u201Cthank you.\u201D People are given emails of recipients to send a nice
+    message and encouraging words. There was speculation that internet trolls or
+    other nations were infiltrating and spreading hatred but some countries had security
+    measures ready to make sure that hateful messages were filtered out. This day
+    raised the spirits of many and made others envious and jealous.\r"
   _selectedCountry: {fileID: 0}
-  EffectOnAllies: -3
-  EffectOnStrategic: -4
-  EffectOnNeutral: -5
-  EffectOnConflict: 4
-  EffectOnEnemies: 3
+  EffectOnAllies: 3
+  EffectOnStrategic: 5
+  EffectOnNeutral: -7
+  EffectOnConflict: -5
+  EffectOnEnemies: -3

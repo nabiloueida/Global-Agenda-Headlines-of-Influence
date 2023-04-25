@@ -12,16 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5063759ce0acb844daa22ad64c7773ad, type: 3}
   m_Name: Headline 5
   m_EditorClassIdentifier: 
-  HeadLineTextFormat: '{0} Proclaims "National Day of Procrastination," Results in
-    Delayed Progress and Increased Excuses Worldwide'
-  ConsequenceTextFormat: The national day of procrastination proclaimed by {0} elicited
-    a variety of responses from other countries. While some appreciated the opportunity
-    to take a break and relax, others expressed concern about the potential for delayed
-    progress and a negative impact on productivity. Despite the mixed reaction, the
-    day led to increased excuses and a surge in procrastination around the world.
+  HeadLineTextFormat: '{0} Launches Nationwide Mental Health Campaign for Oppressed
+    gamers, Results in Increased Awareness and Mockery among Nations.'
+  ConsequenceTextFormat: '{0} nationwide mental health campaign for oppressed gamers
+    was met with widespread appreciation and recognition from the allies. The effort
+    towards increasing awareness around oppressed gamers and mental health was seen
+    as ridiculous among non allied countries.'
   _selectedCountry: {fileID: 0}
-  EffectOnAllies: 7
-  EffectOnStrategic: 6
-  EffectOnNeutral: 5
-  EffectOnConflict: -6
-  EffectOnEnemies: -7
+  EffectOnAllies: 3
+  EffectOnStrategic: 5
+  EffectOnNeutral: -7
+  EffectOnConflict: -5
+  EffectOnEnemies: -3

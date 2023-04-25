@@ -12,17 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5063759ce0acb844daa22ad64c7773ad, type: 3}
   m_Name: Headline 21
   m_EditorClassIdentifier: 
-  HeadLineTextFormat: '{0} Refuses to Participate in Global Humanitarian Aid Effort,
-    Results in Increased Suffering and Decreased Trust Worldwide'
-  ConsequenceTextFormat: '{0} refusal to participate in a global humanitarian aid
-    effort was met with widespread condemnation from the international community.
-    While some criticized it as selfish and callous, others defended it as a necessary
-    measure to protect national interests and resources. Nevertheless, the resulting
-    increase in suffering and the decrease in trust towards the country were widely
-    acknowledged.'
+  HeadLineTextFormat: '{0} Enacts Strict Immigration Policy, Results in Increased
+    Hostility and Decreased Diversity.'
+  ConsequenceTextFormat: '{0} strict immigration policy was met with a mixed response
+    among nations. While some praised it as a necessary measure to protect national
+    security and sovereignty, others criticized it as discriminatory and harmful
+    to global diversity. Nevertheless, the resulting increase in hostility towards
+    immigrants and the decrease in cultural exchange were widely acknowledged.'
   _selectedCountry: {fileID: 0}
   EffectOnAllies: -3
-  EffectOnStrategic: -4
-  EffectOnNeutral: -5
-  EffectOnConflict: 4
+  EffectOnStrategic: -5
+  EffectOnNeutral: -7
+  EffectOnConflict: 5
   EffectOnEnemies: 3

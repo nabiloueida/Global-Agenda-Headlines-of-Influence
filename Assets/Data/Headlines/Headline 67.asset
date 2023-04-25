@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5063759ce0acb844daa22ad64c7773ad, type: 3}
+  m_Name: Headline 67
+  m_EditorClassIdentifier: 
+  HeadLineTextFormat: ' New Invention by {0} Allows People to Speak to Plants in
+    prototype stages, Revolutionizing the Gardening Industry. The Invention was lauded
+    by neutral countries and not so much from others'
+  ConsequenceTextFormat: The invention received mixed reactions from the international
+    community, with some viewing it as a breakthrough in sustainable agriculture,
+    and allied countries viewing it as a frivolous waste of resources on plants of
+    all things.
+  _selectedCountry: {fileID: 0}
+  EffectOnAllies: -3
+  EffectOnStrategic: -5
+  EffectOnNeutral: -7
+  EffectOnConflict: 0
+  EffectOnEnemies: 0

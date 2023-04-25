@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5063759ce0acb844daa22ad64c7773ad, type: 3}
+  m_Name: Headline 75
+  m_EditorClassIdentifier: 
+  HeadLineTextFormat: The President of {0} has claimed the civilians living in rival
+    countries would get T-Bagged in all High Level ESports.
+  ConsequenceTextFormat: "The audacious claim of {0}\u2019s President that all of
+    their ESports would wipe the floor with that of the enemy nations players saying
+    that \u201CAll of them would get T-Bagged\u201D, has caused an enraged debate
+    on social media between young and adult gamers alike. Reports suggest that there
+    soon might be a bout between the enemy nations to try and settle this once and
+    for all.\r"
+  _selectedCountry: {fileID: 0}
+  EffectOnAllies: 0
+  EffectOnStrategic: 0
+  EffectOnNeutral: 0
+  EffectOnConflict: -5
+  EffectOnEnemies: -3

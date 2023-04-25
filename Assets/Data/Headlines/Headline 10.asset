@@ -12,16 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5063759ce0acb844daa22ad64c7773ad, type: 3}
   m_Name: Headline 10
   m_EditorClassIdentifier: 
-  HeadLineTextFormat: '{0} Launches Cyber Attack on Global Infrastructure, Results
-    in Widespread Chaos and Economic Instability Worldwide'
-  ConsequenceTextFormat: The cyber attack launched by {0} on global infrastructure
-    had a significant impact on every other country in the world. As critical systems
-    were compromised and chaos reigned, economies around the world were thrown into
-    disarray. The result was a destabilized global economy and a sense of uncertainty
-    that permeated every aspect of life.
+  HeadLineTextFormat: '{0} Launches "Space Tourism" Program, Results in Increased
+    Exploration and Decreased Privacy.'
+  ConsequenceTextFormat: "{0} \"Space Tourism\" program was met with both excitement
+    and concern from the international community. While it provided a new opportunity
+    for space exploration and adventure, some countries viewed it as a threat to
+    their own space programs and a potential invasion of their airspace. Moreover,
+    the program raised concerns over privacy and safety, as more people entered space
+    and were able to access and potentially manipulate sensitive data. \r"
   _selectedCountry: {fileID: 0}
-  EffectOnAllies: -5
-  EffectOnStrategic: -5
-  EffectOnNeutral: -5
+  EffectOnAllies: 3
+  EffectOnStrategic: 5
+  EffectOnNeutral: 7
   EffectOnConflict: -5
-  EffectOnEnemies: -5
+  EffectOnEnemies: -3

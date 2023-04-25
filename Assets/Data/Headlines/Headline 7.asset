@@ -12,18 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5063759ce0acb844daa22ad64c7773ad, type: 3}
   m_Name: Headline 7
   m_EditorClassIdentifier: 
-  HeadLineTextFormat: '{0} Outlaws Sleep, Causes International Insomnia and Hallucinations
-
-'
-  ConsequenceTextFormat: The outlawing of sleep implemented by {0} elicited a variety
-    of responses from other countries. While some appreciated the opportunity to
-    be more productive and active, others expressed concern about the potential for
-    negative health consequences and increased hallucinations. Despite the mixed
-    reaction, the law ultimately led to international insomnia and a surge in sleepless
-    nights around the world.
+  HeadLineTextFormat: '{0} Proposes "International Compliment Day" Initiative, Causes
+    Confusion, Increased Solidarity and Backhanded Compliments among people. '
+  ConsequenceTextFormat: The international compliment day initiative proposed by
+    {0} led to a variety of reactions from other countries. While some were skeptical
+    of the initiative, others saw it as a positive step towards promoting kindness
+    and positivity in international relations.There was a rise in backhanded compliments
+    that led to an increase in fake relationships among people and nations.
   _selectedCountry: {fileID: 0}
-  EffectOnAllies: -3
-  EffectOnStrategic: -4
-  EffectOnNeutral: 5
-  EffectOnConflict: 4
-  EffectOnEnemies: 3
+  EffectOnAllies: 3
+  EffectOnStrategic: 5
+  EffectOnNeutral: 7
+  EffectOnConflict: -5
+  EffectOnEnemies: -3

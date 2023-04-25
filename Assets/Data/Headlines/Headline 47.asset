@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5063759ce0acb844daa22ad64c7773ad, type: 3}
+  m_Name: Headline 47
+  m_EditorClassIdentifier: 
+  HeadLineTextFormat: "{0} Develop Advanced AI System, Enemies Fear Skynet-like Takeover.\r"
+  ConsequenceTextFormat: "{0}  development of an advanced AI system was met with
+    both awe and fear by the international community. While their allies touted its
+    potential to revolutionize industries,  the enemies expressed concerns over the
+    possibility of a Skynet-like takeover. Neutral countries remained cautious but
+    curious about the technology's capabilities in the near future. \r"
+  _selectedCountry: {fileID: 0}
+  EffectOnAllies: 3
+  EffectOnStrategic: 5
+  EffectOnNeutral: 0
+  EffectOnConflict: -5
+  EffectOnEnemies: -3

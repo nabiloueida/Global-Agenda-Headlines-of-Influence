@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5063759ce0acb844daa22ad64c7773ad, type: 3}
+  m_Name: Headline 62
+  m_EditorClassIdentifier: 
+  HeadLineTextFormat: '{0} Bans Coffee, Results in Increased Grouchiness and Decreased
+    Productivity and halts sales to allied nations.'
+  ConsequenceTextFormat: "{0}\u2019s decision to ban Coffee has left the citizens
+    of the country in an enraged state which decreased productivity. The ban has
+    led to them halting all sales of coffee beans to their allied nations. As a result
+    they have been forced to look elsewhere for their supply of coffee beans."
+  _selectedCountry: {fileID: 0}
+  EffectOnAllies: -3
+  EffectOnStrategic: -5
+  EffectOnNeutral: 0
+  EffectOnConflict: 0
+  EffectOnEnemies: 0

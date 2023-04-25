@@ -12,17 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5063759ce0acb844daa22ad64c7773ad, type: 3}
   m_Name: Headline 27
   m_EditorClassIdentifier: 
-  HeadLineTextFormat: '{0} Launches "Space Tourism" Program, Results in Increased
-    Exploration and Decreased Privacy Worldwide'
-  ConsequenceTextFormat: '{0} "Space Tourism" program was met with both excitement
-    and concern from the international community. While it provided a new opportunity
-    for space exploration and adventure, some countries viewed it as a threat to
-    their own space programs and a potential invasion of their airspace. Moreover,
-    the program raised concerns over privacy and safety, as more people entered space
-    and were able to access and potentially manipulate sensitive data. '
+  HeadLineTextFormat: " {0} Begins Global Nuclear Arms Race, Results in Increased
+    Tensions and Threat of Catastrophic War\r"
+  ConsequenceTextFormat: The decision by {0} to begin a global nuclear arms race
+    had a significant impact on every other country in the world. As tensions mounted
+    and the threat of catastrophic war increased, countries around the world were
+    forced to divert resources to defense and security measures. This led to a destabilized
+    global economy and a sense of unease that permeated every aspect of life.
   _selectedCountry: {fileID: 0}
-  EffectOnAllies: 7
-  EffectOnStrategic: 6
-  EffectOnNeutral: -5
-  EffectOnConflict: 4
-  EffectOnEnemies: 3
+  EffectOnAllies: -3
+  EffectOnStrategic: -5
+  EffectOnNeutral: -7
+  EffectOnConflict: -5
+  EffectOnEnemies: -3

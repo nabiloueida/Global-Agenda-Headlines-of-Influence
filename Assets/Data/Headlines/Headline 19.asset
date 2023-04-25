@@ -12,17 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5063759ce0acb844daa22ad64c7773ad, type: 3}
   m_Name: Headline 19
   m_EditorClassIdentifier: 
-  HeadLineTextFormat: '{0} Implements New National "Hug Your Neighbor" Policy, Results
-    in Increased Warmth and Decreased Awkwardness Worldwide'
-  ConsequenceTextFormat: '{0} implementation of a new national "hug your neighbor"
-    policy was met with a mix of amusement and apprehension from the international
-    community. While some embraced it as a delightful and heartwarming way to promote
-    community spirit and human connection, others expressed concerns about cultural
-    differences and personal boundaries. Regardless of the debate, the resulting
-    increase in warmth and the decrease in awkwardness were widely acknowledged. '
+  HeadLineTextFormat: '{0} Implements Controversial Tax Policies that enacts even
+    kids to pay taxes stating this is real equality, Results in  Decreased Prosperity
+    and enraged parents.'
+  ConsequenceTextFormat: "{0} implementation of controversial tax policies for kids
+    caused a significant stir among nations. While few praised it as a bold  approach
+    to economic growth, others condemned it as harmful and exacerbating. \r"
   _selectedCountry: {fileID: 0}
-  EffectOnAllies: 7
-  EffectOnStrategic: 6
-  EffectOnNeutral: 5
-  EffectOnConflict: -6
-  EffectOnEnemies: -7
+  EffectOnAllies: -3
+  EffectOnStrategic: -5
+  EffectOnNeutral: -7
+  EffectOnConflict: 5
+  EffectOnEnemies: 3

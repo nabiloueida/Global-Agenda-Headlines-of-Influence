@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5063759ce0acb844daa22ad64c7773ad, type: 3}
+  m_Name: Headline 60
+  m_EditorClassIdentifier: 
+  HeadLineTextFormat: '{0} the World''s Laziest Nation Wins International Award for
+    Most Time Spent on Couches. Enemy countries feel less threatened!
+
+'
+  ConsequenceTextFormat: 'While the international community found the award amusing,
+    it also raised concerns about {0}''s lack of productivity and potential health
+    risks associated with a sedentary lifestyle among allies while the enemies had
+    a hilarious reaction towards them.
+
+'
+  _selectedCountry: {fileID: 0}
+  EffectOnAllies: -3
+  EffectOnStrategic: -5
+  EffectOnNeutral: 0
+  EffectOnConflict: 5
+  EffectOnEnemies: 3

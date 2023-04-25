@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5063759ce0acb844daa22ad64c7773ad, type: 3}
+  m_Name: Headline 80
+  m_EditorClassIdentifier: 
+  HeadLineTextFormat: '{0} Unite with enemies and call for a halt to all tensions
+    between them to Tackle Climate Change. They have decided to join forces with
+    their enemies rather than their allies as they are facing similar issues.
+
+'
+  ConsequenceTextFormat: "The enemy and neutral countries come together to combat
+    the growing threat of climate change that's affecting their respective regions.
+    Despite the allies' repeated calls to join forces, they are excluded from the
+    discussions and must now develop their own plan of action. This lack of cooperation
+    on a critical issue has the potential to strain relationships between the allies,
+    enemies, and neutrals. The allied countries have chosen not to comment on this.\r"
+  _selectedCountry: {fileID: 0}
+  EffectOnAllies: 0
+  EffectOnStrategic: 0
+  EffectOnNeutral: 7
+  EffectOnConflict: 5
+  EffectOnEnemies: 3

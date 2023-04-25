@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5063759ce0acb844daa22ad64c7773ad, type: 3}
+  m_Name: Headline 59
+  m_EditorClassIdentifier: 
+  HeadLineTextFormat: ' {0} Becomes World Leader in Coconut Production. But decides
+    to import it to rival countries since they are willing to offer more money than
+    their allies, who were their primary trade partners. '
+  ConsequenceTextFormat: "{0}'s success in the coconut industry led to increased
+    trade and investment opportunities, but were only willing to sell it to the highest
+    bidder leaving their allies behind for a better turnover.\r"
+  _selectedCountry: {fileID: 0}
+  EffectOnAllies: -3
+  EffectOnStrategic: -5
+  EffectOnNeutral: 0
+  EffectOnConflict: 5
+  EffectOnEnemies: 3

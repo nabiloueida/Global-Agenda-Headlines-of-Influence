@@ -12,18 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5063759ce0acb844daa22ad64c7773ad, type: 3}
   m_Name: Headline 3
   m_EditorClassIdentifier: 
-  HeadLineTextFormat: '{0} Unveils Plan to Replace All Cars with Unicycles, Causes
-    International Amusement and Traffic Jams
-
-'
-  ConsequenceTextFormat: The plan to replace all cars with unicycles announced by
-    {0} garnered both positive and negative reactions from other countries. While
-    some applauded the initiative for promoting environmental sustainability and
-    promoting exercise, there were some concerns about the potential for traffic
-    congestion and increased accidents.
-  _selectedCountry: {fileID: 11400000, guid: bb2ce2e8acb1e2745b7f1ae4a10af4bd, type: 2}
-  EffectOnAllies: -3
-  EffectOnStrategic: -4
-  EffectOnNeutral: 5
-  EffectOnConflict: 4
-  EffectOnEnemies: 3
+  HeadLineTextFormat: '{0} Introduces National "Hug a Stranger" Day, Results in Increased
+    Social Connections, Decreased Personal Space and Increased Harassment Worldwide.'
+  ConsequenceTextFormat: ' {0}''s introduction of national "hug a stranger" day was
+    met with a mix of excitement and trepidation from the international community.
+    While some praised the effort towards promoting social connections, others expressed
+    concern about the potential for invading personal space. '
+  _selectedCountry: {fileID: 0}
+  EffectOnAllies: 3
+  EffectOnStrategic: 5
+  EffectOnNeutral: -7
+  EffectOnConflict: -5
+  EffectOnEnemies: -3

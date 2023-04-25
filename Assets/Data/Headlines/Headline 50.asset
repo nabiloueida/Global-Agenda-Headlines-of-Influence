@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5063759ce0acb844daa22ad64c7773ad, type: 3}
+  m_Name: Headline 50
+  m_EditorClassIdentifier: 
+  HeadLineTextFormat: ' {0} form New Military Alliance with allied nations, Enemies
+    Express Concern Over Escalating Tensions and military advancements.'
+  ConsequenceTextFormat: 'The formation of a new military alliance among {0}''s allies
+    sparked concern among enemies, who viewed it as a potential threat to their own
+    security. Tensions between the two sides escalated as a result, with both sides
+    ramping up their military presence in response. While neutrals watched on calmly.
+
+'
+  _selectedCountry: {fileID: 0}
+  EffectOnAllies: 3
+  EffectOnStrategic: 5
+  EffectOnNeutral: 0
+  EffectOnConflict: -5
+  EffectOnEnemies: -3

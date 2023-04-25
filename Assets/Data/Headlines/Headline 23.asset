@@ -12,16 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5063759ce0acb844daa22ad64c7773ad, type: 3}
   m_Name: Headline 23
   m_EditorClassIdentifier: 
-  HeadLineTextFormat: '{0} Rescinds Support for International Peacekeeping Mission,
-    Results in Increased Conflict and Decreased Security Worldwide'
-  ConsequenceTextFormat: '{0} decision to rescind support for an international peacekeeping
-    mission was met with a mixed response among nations. While some defended it as
-    a necessary measure to protect national interests and resources, others condemned
-    it as a betrayal of global security and cooperation. Regardless of the debate,
-    the resulting increase in conflict and the decrease in security were widely acknowledged.'
+  HeadLineTextFormat: "{0} Becomes \"World Leader in Space Exploration,\" Results
+    in Increased Scientific Advancement. Makes the rest of the world follow in its
+    footsteps to increase Scientific Advancement in Space Exploration Technology.\r"
+  ConsequenceTextFormat: '{0} claim to becoming the "World Leader in Space Exploration"
+    was met with pride from the international community. {0} represented a major
+    achievement in scientific advancement and innovation. While also boosting other
+    countries to do the same.'
   _selectedCountry: {fileID: 0}
-  EffectOnAllies: -3
-  EffectOnStrategic: -4
-  EffectOnNeutral: -5
-  EffectOnConflict: 4
+  EffectOnAllies: 3
+  EffectOnStrategic: 5
+  EffectOnNeutral: 7
+  EffectOnConflict: 5
   EffectOnEnemies: 3

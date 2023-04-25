@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5063759ce0acb844daa22ad64c7773ad, type: 3}
+  m_Name: Headline 45
+  m_EditorClassIdentifier: 
+  HeadLineTextFormat: "{0} Collaborates with allied nations on developing a stronger
+    COVID-19 Vaccine to battle the ongoing pandemic.\r"
+  ConsequenceTextFormat: "The collaboration among scientists of {0} and friendly
+    nations in developing COVID-19 vaccines not only helped save lives, but also
+    strengthened relationships amongst the countries, leading to increased trust
+    and cooperation in future endeavors.\r"
+  _selectedCountry: {fileID: 0}
+  EffectOnAllies: 3
+  EffectOnStrategic: 5
+  EffectOnNeutral: 0
+  EffectOnConflict: 0
+  EffectOnEnemies: 0

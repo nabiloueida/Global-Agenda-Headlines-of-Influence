@@ -12,15 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5063759ce0acb844daa22ad64c7773ad, type: 3}
   m_Name: Headline 17
   m_EditorClassIdentifier: 
-  HeadLineTextFormat: '{0} Introduces Universal Basic Income, Results in Increased
-    Economic Equality and Decreased Poverty Worldwide!'
-  ConsequenceTextFormat: "{0} introduction of a universal basic income was met with
-    widespread interest and curiosity from the international community. The effort
-    towards increasing economic equality and reducing poverty was seen as a potentially
-    transformative step towards achieving social justice and human dignity.\r"
+  HeadLineTextFormat: '{0} Bans All Vegetables, Results in Increased Meat Consumption
+    and Smelly Emissions from its citizens. '
+  ConsequenceTextFormat: The ban on all vegetables implemented by {0} caused a mixed
+    reaction among other countries. While some appreciated the promotion of carnivorous
+    diets and a reduction in methane emissions, others expressed concern about the
+    potential for nutrient deficiencies and unpleasant bodily odors. Regardless of
+    the controversy, the ban caused increased meat consumption and a surge in smelly
+    emissions around the nation which resulted in the tourists from the nation to
+    be smelly and ended up displeasing the town folk of other nations.
   _selectedCountry: {fileID: 0}
-  EffectOnAllies: 7
-  EffectOnStrategic: 6
-  EffectOnNeutral: 5
-  EffectOnConflict: -6
-  EffectOnEnemies: -7
+  EffectOnAllies: -3
+  EffectOnStrategic: -5
+  EffectOnNeutral: -7
+  EffectOnConflict: 5
+  EffectOnEnemies: 3

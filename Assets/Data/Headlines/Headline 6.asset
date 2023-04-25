@@ -12,17 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5063759ce0acb844daa22ad64c7773ad, type: 3}
   m_Name: Headline 6
   m_EditorClassIdentifier: 
-  HeadLineTextFormat: '{0} Builds Wall Around Entire Country, Causes International
-    Confusion and Aggravated Tourists'
-  ConsequenceTextFormat: The construction of a wall around the entire country by
-    {0} generated a range of responses from other countries. While some appreciated
-    the security measures and a reduction in illegal immigration, others expressed
-    concern about the practicality and potential negative effects on tourism. Despite
-    the initial confusion and debate, the wall led to aggravated tourists and a significant
-    increase in international confusion.
-  _selectedCountry: {fileID: 11400000, guid: bb2ce2e8acb1e2745b7f1ae4a10af4bd, type: 2}
-  EffectOnAllies: -3
-  EffectOnStrategic: -4
-  EffectOnNeutral: 5
-  EffectOnConflict: 4
-  EffectOnEnemies: 3
+  HeadLineTextFormat: '{0} Proclaims "National Day of Procrastination," Results in
+    Delayed Progress and Increased Mental Health Stability in Workspaces.'
+  ConsequenceTextFormat: 'The national day of procrastination proclaimed by {0} elicited
+    a variety of responses from other countries. While some appreciated the opportunity
+    to take a break and relax, others expressed concern about the potential for delayed
+    progress and a negative impact on productivity. Despite the mixed reaction, the
+    day led to increased excuses and a surge in procrastination around the world. '
+  _selectedCountry: {fileID: 0}
+  EffectOnAllies: 3
+  EffectOnStrategic: 5
+  EffectOnNeutral: 7
+  EffectOnConflict: -5
+  EffectOnEnemies: -3

@@ -12,16 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5063759ce0acb844daa22ad64c7773ad, type: 3}
   m_Name: Headline 22
   m_EditorClassIdentifier: 
-  HeadLineTextFormat: "{0} Implements Controversial Economic Policies by making interest
-    Rates 400%. Results in Increased Inequality and Decreased Prosperity Worldwide\r."
-  ConsequenceTextFormat: '{0} implementation of controversial economic policies caused
-    a significant stir among nations. While some praised it as a bold and innovative
-    approach to economic growth, others condemned it as harmful and exacerbating
-    inequality. Regardless of the debate, the resulting increase in inequality and
-    the decrease in prosperity were widely noted. '
+  HeadLineTextFormat: '{0} has offered to donate its excess food to all nations in
+    the midst of a major food crisis.'
+  ConsequenceTextFormat: With the global food shortage becoming a major issue in
+    developing nations, {0} has valiantly stepped in to lend its support to the international
+    community. All countries look on and applaud the efforts of {0} during these
+    trivial and tense times. We can all learn from their passionate hearts.
   _selectedCountry: {fileID: 0}
-  EffectOnAllies: -3
-  EffectOnStrategic: -4
-  EffectOnNeutral: -5
-  EffectOnConflict: 4
+  EffectOnAllies: 3
+  EffectOnStrategic: 5
+  EffectOnNeutral: 7
+  EffectOnConflict: 5
   EffectOnEnemies: 3

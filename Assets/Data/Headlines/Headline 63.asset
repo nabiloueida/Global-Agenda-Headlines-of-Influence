@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5063759ce0acb844daa22ad64c7773ad, type: 3}
+  m_Name: Headline 63
+  m_EditorClassIdentifier: 
+  HeadLineTextFormat: "Allies of {0} Felt \u201CDisrespected\u201D At Allied Meetings
+    Causing Tensions to Flare."
+  ConsequenceTextFormat: "After what officials from {0} have claimed to be a \u201Cmisunderstanding\u201D
+    the Allied Meeting has spiraled out of control after security footage shows punches
+    being thrown. The video has caused many to be concerned about the future of their
+    nations partnership."
+  _selectedCountry: {fileID: 0}
+  EffectOnAllies: -3
+  EffectOnStrategic: -5
+  EffectOnNeutral: 0
+  EffectOnConflict: 0
+  EffectOnEnemies: 0

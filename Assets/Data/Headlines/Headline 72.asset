@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5063759ce0acb844daa22ad64c7773ad, type: 3}
+  m_Name: Headline 72
+  m_EditorClassIdentifier: 
+  HeadLineTextFormat: " {0} leader accidentally likes enemy nation\u2019s Presidents
+    Instagram post, sparks unexpected d\xE9tente."
+  ConsequenceTextFormat: "The accidental social media interaction caused a stir in
+    diplomatic circles, with both sides cautiously exploring the possibility of a
+    thaw in relations. While some within the enemy country\u2019s government criticized
+    the move as reckless, others saw it as a sign of progress and a potential opportunity
+    for peaceful dialogue. \r\n"
+  _selectedCountry: {fileID: 0}
+  EffectOnAllies: 0
+  EffectOnStrategic: 0
+  EffectOnNeutral: 0
+  EffectOnConflict: 5
+  EffectOnEnemies: 3

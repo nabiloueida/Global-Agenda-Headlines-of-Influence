@@ -12,15 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5063759ce0acb844daa22ad64c7773ad, type: 3}
   m_Name: Headline 8
   m_EditorClassIdentifier: 
-  HeadLineTextFormat: '{0} has offered to donate its excess food to all nations in
-    the midst of a major food crisis.'
-  ConsequenceTextFormat: With the global food shortage becoming a major issue in
-    developing nations, {0} has valiantly stepped in to lend its support to the international
-    community. All countries look on and applaud the efforts of {0} during these
-    trivial and tense times. We can all learn from their passionate hearts.
-  _selectedCountry: {fileID: 11400000, guid: bb2ce2e8acb1e2745b7f1ae4a10af4bd, type: 2}
-  EffectOnAllies: 7
-  EffectOnStrategic: 6
-  EffectOnNeutral: 5
-  EffectOnConflict: 4
-  EffectOnEnemies: 3
+  HeadLineTextFormat: '{0} Implements New National "Hug Your Neighbor" Policy, Results
+    in Increased Warmth and Awkwardness as well as increased stalking arrest rates
+    Worldwide.'
+  ConsequenceTextFormat: '{0} implementation of a new national "hug your neighbor"
+    policy was met with a mix of amusement and awkwardness from the international
+    community. While some embraced it as a delightful and heartwarming way to promote
+    community spirit and human connection, others used it as a chance to stalk and
+    the resulting increase in stalking also increased arrest rates.'
+  _selectedCountry: {fileID: 0}
+  EffectOnAllies: 3
+  EffectOnStrategic: 5
+  EffectOnNeutral: 7
+  EffectOnConflict: -5
+  EffectOnEnemies: -3

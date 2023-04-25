@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5063759ce0acb844daa22ad64c7773ad, type: 3}
+  m_Name: Headline 53
+  m_EditorClassIdentifier: 
+  HeadLineTextFormat: "{0}\u2019s Unilateral Decision to Exit International Treaty
+    Sparks Global Outrage\r"
+  ConsequenceTextFormat: "{0}'s unilateral decision to exit an important international
+    treaty has sparked global outrage, with allies expressing disappointment and
+    enemies not really reacting to this debacle. While the neutral countries understand
+    their reason to do so. The decision is expected to have significant economic
+    and political consequences, as it undermines the credibility of the country on
+    the world stage and damages its relationships with other nations. \r"
+  _selectedCountry: {fileID: 0}
+  EffectOnAllies: -3
+  EffectOnStrategic: -5
+  EffectOnNeutral: 7
+  EffectOnConflict: 0
+  EffectOnEnemies: 0

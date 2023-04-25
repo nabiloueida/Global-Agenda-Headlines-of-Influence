@@ -12,15 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5063759ce0acb844daa22ad64c7773ad, type: 3}
   m_Name: Headline 14
   m_EditorClassIdentifier: 
-  HeadLineTextFormat: '{0} Enforces Mandatory Dance Breaks, Results in Increased
-    Grooving and Decreased Stiffness Worldwide'
-  ConsequenceTextFormat: '{0}''s enforcement of mandatory dance breaks was met with
-    a mix of amusement and disbelief from the international community. While some
-    praised the effort towards promoting physical activity and joy, others expressed
-    concern about the potential for decreased focus and work productivity. '
+  HeadLineTextFormat: "{0} announces that due to budget issues and the current state
+    of the economy, they have decided to sell their tanks at a discount to enemies
+    and neutral countries.\r"
+  ConsequenceTextFormat: "Enemy Countries gained a military advantage over {0}\u2018s
+    allies due to the influx of cheap weapons. Neutral countries were very happy
+    with this policy because it allowed them to meet their defense needs at much
+    lower costs.\r\n"
   _selectedCountry: {fileID: 0}
-  EffectOnAllies: 7
-  EffectOnStrategic: 6
-  EffectOnNeutral: -5
-  EffectOnConflict: -6
-  EffectOnEnemies: -7
+  EffectOnAllies: -3
+  EffectOnStrategic: -5
+  EffectOnNeutral: 7
+  EffectOnConflict: 5
+  EffectOnEnemies: 3

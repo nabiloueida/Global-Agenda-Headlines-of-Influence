@@ -12,19 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5063759ce0acb844daa22ad64c7773ad, type: 3}
   m_Name: Headline 30
   m_EditorClassIdentifier: 
-  HeadLineTextFormat: "{0} Legalizes Marijuana, Results in Increased Tax Revenue
-    and Public Health Concerns Worldwide\r"
-  ConsequenceTextFormat: "{0}\u2019s decision to legalize marijuana was met with
-    a variety of reactions from the international community. Some countries praised
-    the move as a progressive step towards greater personal freedom and a new source
-    of tax revenue, and expressed interest in following suit. However, other countries
-    criticized the move as a dangerous precedent that could lead to increased drug
-    use and public health concerns, and expressed concern about the potential for
-    increased drug-related crime and addiction. (Allies: Down, Enemies: Down, Neutral:
-    Down)\r"
+  HeadLineTextFormat: "Rumor has it that {0}\u2019s President kidnaps all ambassadors
+    and spokes person of the major countries to try to blackmail them to keep classified
+    information from ever getting out.\r"
+  ConsequenceTextFormat: After a rescue was coordinated by the international committee,
+    it was found out that the President was having a huge polygamic party with all
+    the ambassadors and spokes persons who were actually invited and volunteered.
+    All Ambassadors were fired, and a new election is taking place soon in {0}.
   _selectedCountry: {fileID: 0}
   EffectOnAllies: -3
-  EffectOnStrategic: -4
-  EffectOnNeutral: -5
-  EffectOnConflict: -6
-  EffectOnEnemies: -7
+  EffectOnStrategic: -5
+  EffectOnNeutral: -7
+  EffectOnConflict: -5
+  EffectOnEnemies: -3

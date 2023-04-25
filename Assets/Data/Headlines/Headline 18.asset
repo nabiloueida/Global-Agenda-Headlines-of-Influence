@@ -12,15 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5063759ce0acb844daa22ad64c7773ad, type: 3}
   m_Name: Headline 18
   m_EditorClassIdentifier: 
-  HeadLineTextFormat: "{0} Launches Nationwide Mental Health Campaign, Results in
-    Increased Awareness and Decreased Stigma Worldwide\r"
-  ConsequenceTextFormat: "{0} nationwide mental health campaign was met with widespread
-    appreciation and recognition from the international community. The effort towards
-    increasing awareness and reducing stigma surrounding mental health was seen as
-    an important step towards promoting human dignity and well-being. \r"
+  HeadLineTextFormat: "Currency near collapse in {0} after the government\u2019s
+    all in push into investing into its own meta verse that never took off."
+  ConsequenceTextFormat: An absolutely disastrous outcome for {0}. The government's 
+    federal reserve is completely gone. The country is a mess. The government is
+    coming under heavy criticism from the international community especially coming
+    from their allies. {0} has a long way to go to recover from this mess.
   _selectedCountry: {fileID: 0}
-  EffectOnAllies: 7
-  EffectOnStrategic: 6
-  EffectOnNeutral: 5
-  EffectOnConflict: -6
-  EffectOnEnemies: -7
+  EffectOnAllies: -3
+  EffectOnStrategic: -5
+  EffectOnNeutral: -7
+  EffectOnConflict: 5
+  EffectOnEnemies: 3

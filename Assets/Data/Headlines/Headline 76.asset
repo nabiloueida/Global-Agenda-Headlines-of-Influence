@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5063759ce0acb844daa22ad64c7773ad, type: 3}
+  m_Name: Headline 76
+  m_EditorClassIdentifier: 
+  HeadLineTextFormat: '{0} Bans Visa grant to Enemy Nation''s Citizens, Sparks Diplomatic
+    Crisis - let''s say they applied a straight ban of all citizens '
+  ConsequenceTextFormat: '{0}''s decision to refuse visas to citizens of an enemy
+    nation has led to a diplomatic crisis, with accusations of discrimination and
+    unfair treatment being hurled back and forth. The situation has become increasingly
+    tense, with both sides unwilling to back down, and the threat of further retaliatory
+    measures looming.
+
+'
+  _selectedCountry: {fileID: 0}
+  EffectOnAllies: 0
+  EffectOnStrategic: 0
+  EffectOnNeutral: 0
+  EffectOnConflict: -5
+  EffectOnEnemies: -3

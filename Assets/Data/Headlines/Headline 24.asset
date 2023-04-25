@@ -12,14 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5063759ce0acb844daa22ad64c7773ad, type: 3}
   m_Name: Headline 24
   m_EditorClassIdentifier: 
-  HeadLineTextFormat: '{0}''s government announces end of all economic sanctions
-    against long time enemies.'
-  ConsequenceTextFormat: "Trade increases greatly with allies and enemies of {0}
-    but it heavily affects the neutral countries that they use to trade with since
-    those neutral countries were thriving off of {0} conflict.\r"
+  HeadLineTextFormat: ' {0} Hosts International Peace Summit, Results in Improved
+    Diplomatic Relations and Increased Cooperation.
+
+'
+  ConsequenceTextFormat: "{0} hosting of an international peace summit was met with
+    widespread praise and support from the international community. Many nations
+    viewed the summit as a significant step towards improved diplomatic relations
+    and increased global cooperation. However, some countries expressed skepticism
+    over the effectiveness of such summits and the potential impact on their own
+    interests.\r"
   _selectedCountry: {fileID: 0}
-  EffectOnAllies: 7
-  EffectOnStrategic: 6
-  EffectOnNeutral: -5
-  EffectOnConflict: 4
+  EffectOnAllies: 3
+  EffectOnStrategic: 5
+  EffectOnNeutral: 7
+  EffectOnConflict: 5
   EffectOnEnemies: 3

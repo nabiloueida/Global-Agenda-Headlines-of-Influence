@@ -12,17 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5063759ce0acb844daa22ad64c7773ad, type: 3}
   m_Name: Headline 28
   m_EditorClassIdentifier: 
-  HeadLineTextFormat: " {0} Hosts International Peace Summit, Results in Improved
-    Diplomatic Relations and Increased Cooperation Worldwide\r.\n"
-  ConsequenceTextFormat: "{0} hosting of an international peace summit was met with
-    widespread praise and support from the international community. Many nations
-    viewed the summit as a significant step towards improved diplomatic relations
-    and increased global cooperation. However, some countries expressed skepticism
-    over the effectiveness of such summits and the potential impact on their own
-    interests.\r"
+  HeadLineTextFormat: '{0} Launches Cyber Attack on Global Infrastructure, Results
+    in Widespread Chaos and Economic Instability.'
+  ConsequenceTextFormat: The cyber attack launched by {0} on global infrastructure
+    had a significant impact on every other country in the world. As critical systems
+    were compromised and chaos reigned, economies around the world were thrown into
+    disarray. The result was a destabilized global economy and a sense of uncertainty
+    that permeated every aspect of life.
   _selectedCountry: {fileID: 0}
-  EffectOnAllies: 7
-  EffectOnStrategic: 6
-  EffectOnNeutral: 5
-  EffectOnConflict: 4
-  EffectOnEnemies: 3
+  EffectOnAllies: -3
+  EffectOnStrategic: -5
+  EffectOnNeutral: -7
+  EffectOnConflict: -5
+  EffectOnEnemies: -3

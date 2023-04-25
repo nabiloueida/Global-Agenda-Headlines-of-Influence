@@ -12,17 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5063759ce0acb844daa22ad64c7773ad, type: 3}
   m_Name: Headline 26
   m_EditorClassIdentifier: 
-  HeadLineTextFormat: "{0} Introduces \"Robot Tax,\" Results in Increased Automation
-    and Decreased Job Security Worldwide\r."
-  ConsequenceTextFormat: '{0}''s introduction of a "Robot Tax" was met with both
-    applause and criticism from the international community. While some viewed it
-    as a necessary measure to combat increasing automation and job displacement,
-    others argued that it would stifle innovation and economic growth. Moreover,
-    some countries viewed the tax as a threat to their own technological advancements
-    and competitiveness, leading to increased tension and rivalry.'
+  HeadLineTextFormat: '{0} Introduces Universal Basic Income, Results in Increased
+    Economic Equality and Decreased Poverty.'
+  ConsequenceTextFormat: "{0} introduction of a universal basic income was met with
+    widespread interest and curiosity from the international community. The effort
+    towards increasing economic equality and reducing poverty was seen as a potentially
+    transformative step towards achieving social justice and human dignity.\r"
   _selectedCountry: {fileID: 0}
-  EffectOnAllies: 7
-  EffectOnStrategic: 6
-  EffectOnNeutral: -5
-  EffectOnConflict: 4
+  EffectOnAllies: 3
+  EffectOnStrategic: 5
+  EffectOnNeutral: 7
+  EffectOnConflict: 5
   EffectOnEnemies: 3

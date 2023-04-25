@@ -12,15 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5063759ce0acb844daa22ad64c7773ad, type: 3}
   m_Name: Headline 16
   m_EditorClassIdentifier: 
-  HeadLineTextFormat: '{0} Invests in Science and Technology Innovation, Results
-    in Increased Knowledge and Decreased Technological Divide Worldwide'
-  ConsequenceTextFormat: '{0} investment in science and technology innovation was
-    met with widespread praise and admiration from the international community. The
-    effort towards increasing knowledge and reducing the technological divide was
-    seen as an important step towards achieving global progress and prosperity.'
+  HeadLineTextFormat: Major new movie sponsored by the {0} government angers allies
+    over it being  satire and stereotypical about their leaders. The rest of the
+    Global Audience praises the movie.
+  ConsequenceTextFormat: "Allied governments were not pleased with the movie\u2019s
+    depiction of them and have retaliated by signing movie deals promising similar
+    concepts about the government of {0}. Some are skeptical, calling them cheap
+    knock offs trying to catch lightning in a bottle.\r\n"
   _selectedCountry: {fileID: 0}
-  EffectOnAllies: 7
-  EffectOnStrategic: 6
-  EffectOnNeutral: 5
-  EffectOnConflict: -6
-  EffectOnEnemies: -7
+  EffectOnAllies: -3
+  EffectOnStrategic: -5
+  EffectOnNeutral: 7
+  EffectOnConflict: 5
+  EffectOnEnemies: 3

@@ -12,16 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5063759ce0acb844daa22ad64c7773ad, type: 3}
   m_Name: Headline 15
   m_EditorClassIdentifier: 
-  HeadLineTextFormat: '{0} Implements New Education Policies to Improve Literacy
-    Rates, Results in Increased Knowledge and Decreased Poverty Worldwide'
-  ConsequenceTextFormat: "The {0} implementation of new education policies aimed
-    at improving literacy rates was met with widespread approval and appreciation
-    from the international community. The effort towards improving access to education
-    and reducing poverty through increased knowledge and skills was seen as an important
-    step towards achieving global development goals. \r"
+  HeadLineTextFormat: Allies of {0} upset after being left out of recent trade agreements
+    with other less agreeable trade partners.
+  ConsequenceTextFormat: This led to greatly expanded trade between {0}, its Enemies,
+    and its Neutral countries. At the same time, it has greatly damaged the market
+    in Allied countries causing some distrust between {0} and its allies.
   _selectedCountry: {fileID: 0}
-  EffectOnAllies: 7
-  EffectOnStrategic: 6
-  EffectOnNeutral: -5
-  EffectOnConflict: -6
-  EffectOnEnemies: -7
+  EffectOnAllies: -3
+  EffectOnStrategic: -5
+  EffectOnNeutral: 7
+  EffectOnConflict: 5
+  EffectOnEnemies: 3
