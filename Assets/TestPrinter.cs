@@ -13,13 +13,17 @@ public class TestPrinter : MonoBehaviour
     private float timer;
     private int next;
 
+    [SerializeField] private GameManager gameManager;
+
+    [SerializeField] private HeadlineBinding _headlineBinding;
+
     // Start is called before the first frame update
     void Start()
     {
-        PrepareMessage(messages[0]);
+        //PrepareMessage(messages[0]);
     }
 
-    void PrepareMessage(string draft)
+    public void PrepareMessage(string draft)
     {
         words = draft.Split(' ');
         next = 1; //skip the first word
@@ -34,7 +38,7 @@ public class TestPrinter : MonoBehaviour
                 printer.UnderlineMode(words[next]);
             else printer.AppendWithoutLf(words[next]);
             printer.AppendWithoutLf(" ");
-            Debug.Log(words[next]);
+            //Debug.Log(words[next]);
             printer.PrintDocument();
             printer.Clear();
             next++;
@@ -60,7 +64,14 @@ public class TestPrinter : MonoBehaviour
     void Update()
     {
         timer += Time.deltaTime;
-        if (StillPrinting() && timer > 1) //print one word per second
+        //if (StillPrinting() && timer > 1) //print one word per second
+        //        timer--;
+
+
+        if (gameManager.publishingHeadline)
+        {
+            if (StillPrinting() && timer > 1) //print one word per second
                 timer--;
+        }
     }
 }

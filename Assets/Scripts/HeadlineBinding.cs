@@ -24,6 +24,8 @@ public class HeadlineBinding : MonoBehaviour
     [SerializeField] private string publishedCountryName;
     [SerializeField] private Country selectedCountry;
 
+    [SerializeField] TestPrinter testPrinter;
+
     #region MonoBehaviour Methods
     private void OnEnable()
     {
@@ -77,6 +79,7 @@ public class HeadlineBinding : MonoBehaviour
     {
        // selectedCountry.updateRelationships(_observedHeadline.EffectOnAllies, _observedHeadline.EffectOnEnemies, _observedHeadline.EffectOnNeutral);
        _lastCountrySelected.Value.updateRelationships(_observedHeadline.EffectOnAllies, _observedHeadline.EffectOnStrategic, _observedHeadline.EffectOnNeutral, _observedHeadline.EffectOnConflict, _observedHeadline.EffectOnEnemies);
+        gameManager.GetComponent<TestPrinter>().PrepareMessage(publishedCountryName + " " + string.Format(_observedHeadline.ConsequenceTextFormat, publishedCountryName));
         Debug.Log("Pulished Headline");
     }
 
