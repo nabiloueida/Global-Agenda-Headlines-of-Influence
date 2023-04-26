@@ -7343,7 +7343,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 4b271fd715338e24b88d3a19c8bd5d46, type: 2}
   - {fileID: 11400000, guid: 2faa9c49b65fc1e448753b9df3c2e7c1, type: 2}
   - {fileID: 11400000, guid: 6570ab800047aad4aaed7042f66e28ac, type: 2}
-  - {fileID: 11400000, guid: 5f00e42fcb938d14c8ec806c779c26cb, type: 2}
+  - {fileID: 11400000, guid: 568920b57d2011d4f927af7b67c852ea, type: 2}
   - {fileID: 11400000, guid: 7faa0e105e9bb0d448e5ab861b881760, type: 2}
   - {fileID: 11400000, guid: 0787a0b48c0591b4aa6b6a7008013b9d, type: 2}
   - {fileID: 11400000, guid: a4a209c3b8240ee4da4683cf9740795a, type: 2}
@@ -11858,6 +11858,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d60003d047531d641aa1ee0d92a0b3c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timer: 0
+  writeRate: 1
 --- !u!114 &1483572973
 MonoBehaviour:
   m_ObjectHideFlags: 0
