@@ -76,7 +76,7 @@ public class Country : ScriptableObject
         {
             Debug.Log("Before" + this + " + " + country + " = " + relationshipDictionary[country]);
             Debug.Log("Before" + country +  " + " + this + " = " + country.relationshipDictionary[this]);
-            if (relationshipDictionary[country] >= 80) //allied
+            if (relationshipDictionary[country] >= 84) //allied
             {
                 if(relationshipDictionary[country] + onAllies > 100)
                 {
@@ -89,17 +89,17 @@ public class Country : ScriptableObject
                     country.relationshipDictionary[this] += onAllies;
                 }
             }
-            else if(relationshipDictionary[country] >= 60) //strategic
+            else if(relationshipDictionary[country] >= 67) //strategic
             {
                 relationshipDictionary[country] += onStrategic;
                 country.relationshipDictionary[this] += onStrategic;
             }
-            else if (relationshipDictionary[country] >= 40) //neutral
+            else if (relationshipDictionary[country] >= 34) //neutral
             {
                 relationshipDictionary[country] += onNeutral;
                 country.relationshipDictionary[this] += onNeutral;
             }
-            else if (relationshipDictionary[country] >= 20) //Conflict
+            else if (relationshipDictionary[country] >= 17) //Conflict
             {
                 relationshipDictionary[country] += onConflict;
                 country.relationshipDictionary[this] += onConflict;
