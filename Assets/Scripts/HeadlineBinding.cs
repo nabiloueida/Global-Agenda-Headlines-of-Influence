@@ -45,7 +45,7 @@ public class HeadlineBinding : MonoBehaviour
     }
     #endregion
 
-    private void SetHeadline()
+    public void SetHeadline()
     {
         if(_allHeadlines.Count > 0 && gameManager.pickingHeadline)
         {
@@ -83,7 +83,7 @@ public class HeadlineBinding : MonoBehaviour
         Debug.Log("Pulished Headline");
     }
 
-    private void UpdateDisplayText()
+    public void UpdateDisplayText()
     {
         if (_lastCountrySelected.Value == null)
         {

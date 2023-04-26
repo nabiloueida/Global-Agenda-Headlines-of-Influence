@@ -40,77 +40,77 @@ public class ArduinoManager : MonoBehaviour
         //serialPort.Write(data);
     }
 
-    void FixedUpdate()
-    {
-        timer = Time.time;
-        //int id = 0;
-        //int r = 255;
-        //int g = 0;
-        //int b = 0;
-        //string data = string.Format("{0},{1},{2},{3}\n", id, r, g, b);
-        //serialPort.Write(data);
+    //void FixedUpdate()
+    //{
+    //    timer = Time.time;
+    //    //int id = 0;
+    //    //int r = 255;
+    //    //int g = 0;
+    //    //int b = 0;
+    //    //string data = string.Format("{0},{1},{2},{3}\n", id, r, g, b);
+    //    //serialPort.Write(data);
 
-        if (!zeroIsOn )
-        {
+    //    if (!zeroIsOn )
+    //    {
             
-            changeLedColor(0, 255, 0, 0);
+    //        changeLedColor(0, 255, 0, 0);
             
-            zeroIsOn = true;
-        }if(zeroIsOn && !oneIsOn)
-        {
-            changeLedColor(1, 0, 255, 0);
+    //        zeroIsOn = true;
+    //    }if(zeroIsOn && !oneIsOn)
+    //    {
+    //        changeLedColor(1, 0, 255, 0);
             
-            oneIsOn = true;
-        }
-        if (oneIsOn && !twoIsOn)
-        {
+    //        oneIsOn = true;
+    //    }
+    //    if (oneIsOn && !twoIsOn)
+    //    {
 
-            changeLedColor(2, 0, 0, 255);
-            
-
-            twoIsOn = true;
-
-        }
-        if (twoIsOn && !threeIsOn)
-        {
-            changeLedColor(3, 255, 0, 0);
-            
-            threeIsOn = true;
-        }
-        if (threeIsOn && !fourIsOn)
-        {
-            changeLedColor(4, 0, 255, 0);
+    //        changeLedColor(2, 0, 0, 255);
             
 
-            fourIsOn = true;
-        }
-        if (fourIsOn && !fiveIsOn)
-        {
-            changeLedColor(5, 0, 0, 255);
+    //        twoIsOn = true;
+
+    //    }
+    //    if (twoIsOn && !threeIsOn)
+    //    {
+    //        changeLedColor(3, 255, 0, 0);
+            
+    //        threeIsOn = true;
+    //    }
+    //    if (threeIsOn && !fourIsOn)
+    //    {
+    //        changeLedColor(4, 0, 255, 0);
             
 
-            fiveIsOn = true;
-        }
-        if (fiveIsOn && !sixIsOn)
-        {
-            changeLedColor(6, 255, 0, 0);
+    //        fourIsOn = true;
+    //    }
+    //    if (fourIsOn && !fiveIsOn)
+    //    {
+    //        changeLedColor(5, 0, 0, 255);
             
 
-            sixIsOn = true;
-        }
-        if (sixIsOn && !sevenIsOn)
-        {
-            changeLedColor(7, 0, 255, 0);
+    //        fiveIsOn = true;
+    //    }
+    //    if (fiveIsOn && !sixIsOn)
+    //    {
+    //        changeLedColor(6, 255, 0, 0);
             
-            sevenIsOn = true;
-        }
-        if (sevenIsOn && !eightIsOn)
-        {
-            changeLedColor(8, 0, 0, 255);
-            eightIsOn = true;
-        }
 
-    }
+    //        sixIsOn = true;
+    //    }
+    //    if (sixIsOn && !sevenIsOn)
+    //    {
+    //        changeLedColor(7, 0, 255, 0);
+            
+    //        sevenIsOn = true;
+    //    }
+    //    if (sevenIsOn && !eightIsOn)
+    //    {
+    //        changeLedColor(8, 0, 0, 255);
+    //        eightIsOn = true;
+    //    }
+
+    //}
 
     void Update()
     {

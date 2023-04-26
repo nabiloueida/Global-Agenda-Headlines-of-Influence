@@ -123,8 +123,8 @@ public class Country : ScriptableObject
                 }
                 
             }
-            Debug.Log("After" + this + " + " + country + " = " + relationshipDictionary[country]);
-            Debug.Log("After" + country + " + " + this + " = " + country.relationshipDictionary[this]);
+            //Debug.Log("After" + this + " + " + country + " = " + relationshipDictionary[country]);
+            //Debug.Log("After" + country + " + " + this + " = " + country.relationshipDictionary[this]);
         }
        // _countryUpdate += _buttonBinding.updateButtonDisplay;
     }
