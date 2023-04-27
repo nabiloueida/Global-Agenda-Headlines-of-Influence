@@ -22,6 +22,8 @@ public class WorldHeadline : ScriptableObject
     // [TextArea(5, 5)]
     [SerializeField] private List<string> listOfHints;
 
+    public List<string> usedHints;
+
 
     [SerializeField]
     public Country _selectedCountry;
@@ -50,7 +52,7 @@ public class WorldHeadline : ScriptableObject
     private void Awake()
     {
         _selectedCountry = null;
-        Debug.Log("Hello");
+        //Debug.Log("Hello");
     }
 
     
@@ -88,5 +90,17 @@ public class WorldHeadline : ScriptableObject
             Debug.Log("we are in");
             selectedHint = listOfHints[selectedHintIndex];
         }
+    }
+
+    public void useHint()
+    {
+        if (selectedHint != "")
+        {
+            usedHints.Add(selectedHint);
+            listOfHints.RemoveAt(selectedHintIndex);
+            selectedHint = "";
+        }
+        
+
     }
 }

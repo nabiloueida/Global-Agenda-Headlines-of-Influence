@@ -126,14 +126,16 @@ public class HeadlineBinding : MonoBehaviour
         }
     }
 
-    public void printHint()
+    public void useHint()
     {
         //print hint
         if (!(selectedHint == ""))
         {
             Debug.Log("hint pressed");
-            gameManager.GetComponent<TestPrinter>().PrepareMessage(selectedHint);
-            
+            //gameManager.GetComponent<TestPrinter>().PrepareMessage(selectedHint);
+            _observedHeadline.useHint();
+            _observedHeadline.setHint();
+            selectedHint = _observedHeadline.selectedHint;
 
         }
     }

@@ -64,7 +64,12 @@ public class GameManager : MonoBehaviour
 
     public void printHint()
     {
-        _headlineBinding.printHint();
+        //_headlineBinding.printHint();
+        if(_headlineBinding.selectedHint != "")
+        {
+            GetComponent<TestPrinter>().PrepareMessage(_headlineBinding.selectedHint);
+            _headlineBinding.useHint();
+        }
         //_lastCountrySelected._variableUpdate?.Invoke();
     }
 
