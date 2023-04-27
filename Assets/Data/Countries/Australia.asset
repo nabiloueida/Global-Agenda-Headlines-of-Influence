@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Australia
   Index: 1
+  ledIndex: 7
   allCountries:
   - {fileID: 11400000, guid: ce3db73a7eb10994698e4536a37cddf5, type: 2}
   - {fileID: 11400000}

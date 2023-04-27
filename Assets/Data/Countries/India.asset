@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: India
   Index: 5
+  ledIndex: 5
   allCountries:
   - {fileID: 11400000, guid: ce3db73a7eb10994698e4536a37cddf5, type: 2}
   - {fileID: 11400000, guid: 539821e86f075374b96408a82565beeb, type: 2}

@@ -10,6 +10,8 @@ public class Country : ScriptableObject
     public string Name;
     public int Index;
 
+    public int ledIndex;
+
     public Dictionary<Country, int> relationshipDictionary;
 
     public Dictionary<Country, int> Allies;
@@ -21,6 +23,8 @@ public class Country : ScriptableObject
     public CountryUpdated _countryUpdate;
 
     [SerializeField] public ButtonBinding _buttonBinding;
+
+
 
     public void Awake()
     {
