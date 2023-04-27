@@ -22,6 +22,24 @@ MonoBehaviour:
     a hilarious reaction towards them.
 
 '
+  selectedHint: 
+  selectedHintIndex: 0
+  listOfHints:
+  - Pinky  Our sources suggest that friends of this country would not appreciate
+    seeing this headline! - Agent Pinky
+  - "Pinky  This would very much upset the friends of this country if you posted
+    this\u2026could be fun? - Agent Pinky"
+  - "StrayKing  You will ruin friendships\u2026 - Agent StrayKing"
+  - Hyperion  If you publish this you will cause allies to feel doubtful of the selected
+    country. - Agent Hyperion
+  - Big_Man  I know that  this headline will benefit the selected country and those
+    who are rivals towards them. - Agent Big_Man
+  - StrayKing  This will help bring this country closer together with their rivals
+    - Agent StrayKing
+  - 'G.O.A.T.  This will mend the relationship with conflicting countries. - Agent
+    G.O.A.T.  '
+  - "Pinky  Countries that didn\u2019t like each other before might start liking
+    each other which could be nice. - Agent Pink"
   _selectedCountry: {fileID: 0}
   EffectOnAllies: -3
   EffectOnStrategic: -5

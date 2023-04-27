@@ -18,6 +18,17 @@ MonoBehaviour:
     information to their allies comes as not only a strategic move but a symbolic
     move for its people that, \u201CWe Stand Together.\u201D  This agreement has
     bolstered their knowledge of their own and other military arsenals. \r"
+  selectedHint: 
+  selectedHintIndex: 0
+  listOfHints:
+  - 'Dshap This headline would greatly benefit the close friends of this country.
+    - Agent Dshap '
+  - Pinky  It appears that publishing this headline could give a boost to those that
+    are allied with this country. Agent Pinky
+  - 'Big_Man  Hey Boss, Report here. This headline will boost the relationship between
+    the selected countries and its Allies. Big_Man '
+  - "Shake_Ya_Bootay  This country and their allies will be shakin\u2019 their bootays
+    after this headline! Shake_Ya_Boota"
   _selectedCountry: {fileID: 0}
   EffectOnAllies: 3
   EffectOnStrategic: 5

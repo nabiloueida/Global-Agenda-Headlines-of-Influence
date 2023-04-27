@@ -22,6 +22,29 @@ MonoBehaviour:
     products and food within the countries. The neutral states did not face these
     problems and were able to increase exports of goods and foodstuffs to the countries
     at war.\r"
+  selectedHint: 
+  selectedHintIndex: 0
+  listOfHints:
+  - Pinky  Our sources suggest that friends of this country would not appreciate
+    seeing this headline! - Agent Pinky
+  - "Pinky  This would very much upset the friends of this country if you posted
+    this\u2026could be fun? - Agent Pinky "
+  - "StrayKing  You will ruin friendships\u2026 - Agent StrayKing "
+  - 'Hyperion  If you publish this you will cause allies to feel doubtful of the
+    selected country. - Agent Hyperion '
+  - Big_Man  Those in Neutral standing may look towards the headline subject with
+    more friendliness. - Agent Big_Man
+  - Pinky  My reports show that Neutrals would heavily favor the country being published
+    in this headline. - Agent Pinky
+  - Shake_Ya_Bootay  My sources suggest that neutral countries will be dancin in
+    the club tonight with the selected country. - Agent Shake_Ya_Bootay
+  - StrayKing  Some may find that this headline will have consequences for those
+    who are hostile with the selected country. StrayKing
+  - Hyperion  This headline may lead to a slippery slope and could have adverse consequences
+    for those who are opposed to the selected country. Hyperion
+  - 'G.O.A.T  Countries at the brink of war with this country will snap. Agent G.O.A.T '
+  - Big_Man I believe this would make tensions flare far worse than they already
+    are.Agent Big_Man
   _selectedCountry: {fileID: 0}
   EffectOnAllies: -3
   EffectOnStrategic: -5

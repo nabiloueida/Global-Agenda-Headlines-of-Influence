@@ -18,6 +18,16 @@ MonoBehaviour:
     of the country in an enraged state which decreased productivity. The ban has
     led to them halting all sales of coffee beans to their allied nations. As a result
     they have been forced to look elsewhere for their supply of coffee beans."
+  selectedHint: 
+  selectedHintIndex: 0
+  listOfHints:
+  - Pinky  Our sources suggest that friends of this country would not appreciate
+    seeing this headline! - Agent Pinky
+  - "Pinky  This would very much upset the friends of this country if you posted
+    this\u2026could be fun? - Agent Pinky"
+  - "StrayKing  You will ruin friendships\u2026 - Agent StrayKing"
+  - Hyperion  If you publish this you will cause allies to feel doubtful of the selected
+    country. - Agent Hyperion
   _selectedCountry: {fileID: 0}
   EffectOnAllies: -3
   EffectOnStrategic: -5

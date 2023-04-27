@@ -20,6 +20,17 @@ MonoBehaviour:
     has started peace negotiations to cease fire among the enemy nations to try and
     help them during these tough times. The talks ended well and it seems that they
     are willing to help. For Now\u2026\r"
+  selectedHint: 
+  selectedHintIndex: 0
+  listOfHints:
+  - Big_Man  I know that  this headline will benefit the selected country and those
+    who are rivals towards them. - Agent Big_Man
+  - StrayKing  This will help bring this country closer together with their rivals
+    - Agent StrayKing
+  - 'G.O.A.T.  This will mend the relationship with conflicting countries. - Agent
+    G.O.A.T.  '
+  - "Pinky  Countries that didn\u2019t like each other before might start liking
+    each other which could be nice. - Agent Pink"
   _selectedCountry: {fileID: 0}
   EffectOnAllies: 0
   EffectOnStrategic: 0

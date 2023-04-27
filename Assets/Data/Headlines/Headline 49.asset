@@ -20,6 +20,24 @@ MonoBehaviour:
     receiving recognition for their achievements in various roles and genres. However,
     enemies accused the judges of bias and claimed that the awards were unfairly
     skewed in favor of the allies.\r"
+  selectedHint: 
+  selectedHintIndex: 0
+  listOfHints:
+  - 'Dshap This headline would greatly benefit the close friends of this country.
+    - Agent Dshap '
+  - Pinky  It appears that publishing this headline could give a boost to those that
+    are allied with this country. Agent Pinky
+  - 'Big_Man  Hey Boss, Report here. This headline will boost the relationship between
+    the selected countries and its Allies. Big_Man '
+  - "Shake_Ya_Bootay  This country and their allies will be shakin\u2019 their bootays
+    after this headline! Shake_Ya_Boota"
+  - StrayKing  Some may find that this headline will have consequences for those
+    who are hostile with the selected country. StrayKing
+  - Hyperion  This headline may lead to a slippery slope and could have adverse consequences
+    for those who are opposed to the selected country. Hyperion
+  - 'G.O.A.T  Countries at the brink of war with this country will snap. Agent G.O.A.T '
+  - Big_Man I believe this would make tensions flare far worse than they already
+    are.Agent Big_Man
   _selectedCountry: {fileID: 0}
   EffectOnAllies: 3
   EffectOnStrategic: 5

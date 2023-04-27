@@ -15,8 +15,13 @@ public class WorldHeadline : ScriptableObject
     public string HeadLineTextFormat = "";
     [TextArea(5, 5)]
     public string ConsequenceTextFormat = "";
-    [TextArea(5, 5)]
-    public string HintTextFormat = "";
+
+    
+    public string selectedHint = "";
+    public int selectedHintIndex;
+    // [TextArea(5, 5)]
+    [SerializeField] private List<string> listOfHints;
+
 
     [SerializeField]
     public Country _selectedCountry;
@@ -45,7 +50,10 @@ public class WorldHeadline : ScriptableObject
     private void Awake()
     {
         _selectedCountry = null;
+        Debug.Log("Hello");
     }
+
+    
     public string GetCurrentHeadlineText()
     {
         if (SelectedCountry == null)
@@ -68,6 +76,17 @@ public class WorldHeadline : ScriptableObject
         {
             Debug.LogWarning("No Selected country!");
             return string.Format(ConsequenceTextFormat, SelectedCountry.Name);
+        }
+    }
+
+    public void setHint()
+    {
+        if (listOfHints.Count > 0)
+        {
+            
+            selectedHintIndex = Random.Range(0, listOfHints.Count - 1);
+            Debug.Log("we are in");
+            selectedHint = listOfHints[selectedHintIndex];
         }
     }
 }

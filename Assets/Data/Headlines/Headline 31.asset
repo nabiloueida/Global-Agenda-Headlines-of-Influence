@@ -20,6 +20,30 @@ MonoBehaviour:
     a necessary measure to protect national interests and resources, others condemned
     it as a betrayal of global security and cooperation. Regardless of the debate,
     the rumors about them preparing for war appear to be true.'
+  selectedHint: 
+  selectedHintIndex: 0
+  listOfHints:
+  - Pinky  Our sources suggest that friends of this country would not appreciate
+    seeing this headline! - Agent Pinky
+  - "Pinky  This would very much upset the friends of this country if you posted
+    this\u2026could be fun? - Agent Pinky "
+  - "StrayKing  You will ruin friendships\u2026 - Agent StrayKing "
+  - 'Hyperion  If you publish this you will cause allies to feel doubtful of the
+    selected country. - Agent Hyperion '
+  - StrayKing  This might shift the neutrals away from whoever you select here. Agent
+    StrayKing
+  - GOAT  You will bring neutral countries into conflict. Agent GOAT
+  - Pinky  My reports spell bad news for neutral countries and the headlined countries!.
+    Agent Pinky
+  - "Big_Man  This will disrupt the countries on that were on the fence about this
+    nation\u201D - Agent Big Man"
+  - StrayKing  Some may find that this headline will have consequences for those
+    who are hostile with the selected country. StrayKing
+  - Hyperion  This headline may lead to a slippery slope and could have adverse consequences
+    for those who are opposed to the selected country. Hyperion
+  - 'G.O.A.T  Countries at the brink of war with this country will snap. Agent G.O.A.T '
+  - Big_Man I believe this would make tensions flare far worse than they already
+    are.Agent Big_Man
   _selectedCountry: {fileID: 0}
   EffectOnAllies: -3
   EffectOnStrategic: -5

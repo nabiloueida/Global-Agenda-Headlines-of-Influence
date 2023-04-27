@@ -14,6 +14,7 @@ public class HeadlineBinding : MonoBehaviour
     public int EffectOnNeutral = 0;
     public int EffectOnConflict = 0;
     public int EffectOnEnemies = 0;
+    public string selectedHint = "";
 
     [SerializeField] private List<WorldHeadline> _allHeadlines;
     [SerializeField] private List<WorldHeadline> _usedHeadlines;
@@ -67,6 +68,8 @@ public class HeadlineBinding : MonoBehaviour
             EffectOnNeutral = _observedHeadline.EffectOnNeutral;
             EffectOnConflict = _observedHeadline.EffectOnConflict;
             EffectOnEnemies = _observedHeadline.EffectOnEnemies;
+            _observedHeadline.setHint();
+            selectedHint = _observedHeadline.selectedHint;
         }
         else
         {
@@ -92,7 +95,10 @@ public class HeadlineBinding : MonoBehaviour
     {
        // selectedCountry.updateRelationships(_observedHeadline.EffectOnAllies, _observedHeadline.EffectOnEnemies, _observedHeadline.EffectOnNeutral);
        _lastCountrySelected.Value.updateRelationships(_observedHeadline.EffectOnAllies, _observedHeadline.EffectOnStrategic, _observedHeadline.EffectOnNeutral, _observedHeadline.EffectOnConflict, _observedHeadline.EffectOnEnemies);
-        gameManager.GetComponent<TestPrinter>().PrepareMessage(publishedCountryName + " " + string.Format(_observedHeadline.ConsequenceTextFormat, publishedCountryName));
+        //gameManager.GetComponent<TestPrinter>().PrepareMessage(publishedCountryName + " " + string.Format(_observedHeadline.ConsequenceTextFormat, publishedCountryName));
+
+        //printHint();
+
         Debug.Log("Pulished Headline");
     }
 
@@ -117,6 +123,16 @@ public class HeadlineBinding : MonoBehaviour
             _displayText.text = string.Format(_observedHeadline.ConsequenceTextFormat, publishedCountryName);
             //Debug.Log("Headline Published, now showing Consequence");
            // publishedCountryName = null;
+        }
+    }
+
+    public void printHint()
+    {
+        //print hint
+        if (!(selectedHint == ""))
+        {
+            gameManager.GetComponent<TestPrinter>().PrepareMessage(selectedHint);
+
         }
     }
 }

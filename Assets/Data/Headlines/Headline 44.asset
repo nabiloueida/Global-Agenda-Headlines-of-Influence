@@ -21,6 +21,17 @@ MonoBehaviour:
     and advancing clean energy technology. Through joint research and development
     efforts, the nations have made important strides in mitigating the effects of
     climate change and promoting sustainable energy practices.
+  selectedHint: 
+  selectedHintIndex: 0
+  listOfHints:
+  - 'Dshap This headline would greatly benefit the close friends of this country.
+    - Agent Dshap '
+  - Pinky  It appears that publishing this headline could give a boost to those that
+    are allied with this country. Agent Pinky
+  - 'Big_Man  Hey Boss, Report here. This headline will boost the relationship between
+    the selected countries and its Allies. Big_Man '
+  - "Shake_Ya_Bootay  This country and their allies will be shakin\u2019 their bootays
+    after this headline! Shake_Ya_Boota"
   _selectedCountry: {fileID: 0}
   EffectOnAllies: 3
   EffectOnStrategic: 5

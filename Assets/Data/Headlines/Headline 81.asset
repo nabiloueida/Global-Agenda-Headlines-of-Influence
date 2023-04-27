@@ -19,6 +19,23 @@ MonoBehaviour:
     from various countries were able to engage in meaningful dialogue and cultural
     exchange, fostering mutual understanding and laying the foundation for future
     cooperation. \r\n"
+  selectedHint: 
+  selectedHintIndex: 0
+  listOfHints:
+  - Big_Man  Those in Neutral standing may look towards the headline subject with
+    more friendliness. - Agent Big_Man
+  - Pinky  My reports show that Neutrals would heavily favor the country being published
+    in this headline. - Agent Pinky
+  - 'Shake_Ya_Bootay  My sources suggest that neutral countries will be dancin in
+    the club tonight with the selected country. - Agent Shake_Ya_Bootay '
+  - Big_Man  I know that  this headline will benefit the selected country and those
+    who are rivals towards them. - Agent Big_Man
+  - StrayKing  This will help bring this country closer together with their rivals
+    - Agent StrayKing
+  - 'G.O.A.T.  This will mend the relationship with conflicting countries. - Agent
+    G.O.A.T.  '
+  - "Pinky  Countries that didn\u2019t like each other before might start liking
+    each other which could be nice. - Agent Pink"
   _selectedCountry: {fileID: 0}
   EffectOnAllies: 0
   EffectOnStrategic: 0

@@ -20,6 +20,23 @@ MonoBehaviour:
     concern about the practicality and potential negative effects on tourism. Despite
     the initial confusion and debate, the wall led to aggravated tourists and a significant
     increase in international confusion.
+  selectedHint: shake it big man
+  selectedHintIndex: 0
+  listOfHints:
+  - Pinky  Our sources suggest that friends of this country would not appreciate
+    seeing this headline! - Agent Pinky
+  - "Pinky  This would very much upset the friends of this country if you posted
+    this\u2026could be fun? - Agent Pinky "
+  - "StrayKing  You will ruin friendships\u2026 - Agent StrayKing "
+  - 'Hyperion  If you publish this you will cause allies to feel doubtful of the
+    selected country. - Agent Hyperion '
+  - StrayKing  This might shift the neutrals away from whoever you select here. Agent
+    StrayKing
+  - GOAT  You will bring neutral countries into conflict. Agent GOAT
+  - Pinky  My reports spell bad news for neutral countries and the headlined countries!.
+    Agent Pinky
+  - "Big_Man  This will disrupt the countries on that were on the fence about this
+    nation\u201D - Agent Big Man"
   _selectedCountry: {fileID: 0}
   EffectOnAllies: -3
   EffectOnStrategic: -5

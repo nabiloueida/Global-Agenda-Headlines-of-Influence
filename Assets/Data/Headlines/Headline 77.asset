@@ -22,6 +22,16 @@ MonoBehaviour:
     been done, and relations between the two countries have taken a sharp downturn.
 
 '
+  selectedHint: 
+  selectedHintIndex: 0
+  listOfHints:
+  - StrayKing  Some may find that this headline will have consequences for those
+    who are hostile with the selected country. StrayKing
+  - Hyperion  This headline may lead to a slippery slope and could have adverse consequences
+    for those who are opposed to the selected country. Hyperion
+  - 'G.O.A.T  Countries at the brink of war with this country will snap. Agent G.O.A.T '
+  - Big_Man I believe this would make tensions flare far worse than they already
+    are.Agent Big_Man
   _selectedCountry: {fileID: 0}
   EffectOnAllies: 0
   EffectOnStrategic: 0

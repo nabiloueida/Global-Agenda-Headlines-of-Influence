@@ -20,6 +20,22 @@ MonoBehaviour:
     their reason to do so. The decision is expected to have significant economic
     and political consequences, as it undermines the credibility of the country on
     the world stage and damages its relationships with other nations. \r"
+  selectedHint: 
+  selectedHintIndex: 0
+  listOfHints:
+  - Pinky  Our sources suggest that friends of this country would not appreciate
+    seeing this headline! - Agent Pinky
+  - "Pinky  This would very much upset the friends of this country if you posted
+    this\u2026could be fun? - Agent Pinky"
+  - "StrayKing  You will ruin friendships\u2026 - Agent StrayKing"
+  - Hyperion  If you publish this you will cause allies to feel doubtful of the selected
+    country. - Agent Hyperion
+  - Big_Man  Those in Neutral standing may look towards the headline subject with
+    more friendliness. - Agent Big_Man
+  - Pinky  My reports show that Neutrals would heavily favor the country being published
+    in this headline. - Agent Pinky
+  - Shake_Ya_Bootay  My sources suggest that neutral countries will be dancin in
+    the club tonight with the selected country. - Agent Shake_Ya_Bootay
   _selectedCountry: {fileID: 0}
   EffectOnAllies: -3
   EffectOnStrategic: -5
