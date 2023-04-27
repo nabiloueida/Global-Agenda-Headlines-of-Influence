@@ -49,6 +49,7 @@ public class HeadlineBinding : MonoBehaviour
     {
         if(_allHeadlines.Count > 0 && gameManager.pickingHeadline)
         {
+            _lastCountrySelected.Value = null;
             currentHeadlineIndex = Random.Range(0, _allHeadlines.Count);
             //Debug.Log(currentHeadlineIndex);
             _observedHeadline = _allHeadlines[currentHeadlineIndex];
