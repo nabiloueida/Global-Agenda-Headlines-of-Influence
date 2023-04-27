@@ -68,10 +68,10 @@ public class TestPrinter : MonoBehaviour
         //        timer--;
 
 
-        if (gameManager.publishingHeadline)
-        {
+        //if (gameManager.publishingHeadline)
+        //{
             if (StillPrinting() && timer > 1) //print one word per second
                 timer--;
-        }
+        //}
     }
 }

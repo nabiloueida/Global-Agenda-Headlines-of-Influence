@@ -62,6 +62,12 @@ public class GameManager : MonoBehaviour
 
     }
 
+    public void printHint()
+    {
+        _headlineBinding.printHint();
+        //_lastCountrySelected._variableUpdate?.Invoke();
+    }
+
     public void NextHeadline()
     {
         pickingHeadline = true;

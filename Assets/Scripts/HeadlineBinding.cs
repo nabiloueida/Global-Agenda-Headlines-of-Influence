@@ -131,7 +131,9 @@ public class HeadlineBinding : MonoBehaviour
         //print hint
         if (!(selectedHint == ""))
         {
+            Debug.Log("hint pressed");
             gameManager.GetComponent<TestPrinter>().PrepareMessage(selectedHint);
+            
 
         }
     }
