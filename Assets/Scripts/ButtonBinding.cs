@@ -95,19 +95,19 @@ public class ButtonBinding : MonoBehaviour
     {
         int relationshipScore = _lastCountrySelected.Value.relationshipDictionary[country];
 
-        if(relationshipScore >= 80) //allied
+        if(relationshipScore >= 84) //allied
         {
             alliedColor.a = 1f;
             image.color = alliedColor;
-        }else if(relationshipScore >= 60) //strategic
+        }else if(relationshipScore >= 67) //strategic
         {
             strategicColor.a = 1f;
             image.color = strategicColor;
-        }else if (relationshipScore >= 40) //neutral
+        }else if (relationshipScore >= 34) //neutral
         {
             neutralColor.a = 1f;
             image.color = neutralColor;
-        }else if(relationshipScore >= 20) // conflict
+        }else if(relationshipScore >= 17) // conflict
         {
             conflictColor.a = 1f;
             image.color = conflictColor;
