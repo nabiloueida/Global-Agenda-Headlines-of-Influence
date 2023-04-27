@@ -15,7 +15,8 @@ public class WorldHeadline : ScriptableObject
     public string HeadLineTextFormat = "";
     [TextArea(5, 5)]
     public string ConsequenceTextFormat = "";
-
+    [TextArea(5, 5)]
+    public string HintTextFormat = "";
 
     [SerializeField]
     public Country _selectedCountry;

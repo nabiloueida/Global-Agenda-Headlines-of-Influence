@@ -9,6 +9,12 @@ public class HeadlineBinding : MonoBehaviour
 {
     [SerializeField] private WorldHeadline _observedHeadline;
 
+    public int EffectOnAllies = 0;
+    public int EffectOnStrategic = 0;
+    public int EffectOnNeutral = 0;
+    public int EffectOnConflict = 0;
+    public int EffectOnEnemies = 0;
+
     [SerializeField] private List<WorldHeadline> _allHeadlines;
     [SerializeField] private List<WorldHeadline> _usedHeadlines;
     public int currentHeadlineIndex;
@@ -55,6 +61,12 @@ public class HeadlineBinding : MonoBehaviour
             _observedHeadline = _allHeadlines[currentHeadlineIndex];
             _observedHeadline.SelectedCountry = null;
             _observedHeadline.headlineUpdated += UpdateDisplayText;
+
+            EffectOnAllies = _observedHeadline.EffectOnAllies;
+            EffectOnStrategic = _observedHeadline.EffectOnStrategic;
+            EffectOnNeutral = _observedHeadline.EffectOnNeutral;
+            EffectOnConflict = _observedHeadline.EffectOnConflict;
+            EffectOnEnemies = _observedHeadline.EffectOnEnemies;
         }
         else
         {

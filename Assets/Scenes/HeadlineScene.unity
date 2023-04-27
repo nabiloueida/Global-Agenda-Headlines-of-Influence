@@ -7475,6 +7475,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _observedHeadline: {fileID: 11400000, guid: f8310b97511e0bd4e8712ad3e9e7a356, type: 2}
+  EffectOnAllies: 0
+  EffectOnStrategic: 0
+  EffectOnNeutral: 0
+  EffectOnConflict: 0
+  EffectOnEnemies: 0
   _allHeadlines:
   - {fileID: 11400000, guid: 8d61f7ddddf11514d9a3de8ec3287065, type: 2}
   - {fileID: 11400000, guid: 7ef1fc81fcb1101459b06815cf2c34c9, type: 2}
@@ -12076,7 +12081,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1483572967}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d60003d047531d641aa1ee0d92a0b3c8, type: 3}
   m_Name: 
@@ -12090,7 +12095,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1483572967}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 802e3a5cf980cd4428e99a7974ee55a2, type: 3}
   m_Name: 
