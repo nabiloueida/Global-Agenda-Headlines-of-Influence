@@ -17,7 +17,7 @@ public class ArduinoManager : MonoBehaviour
     bool sixIsOn = false;
     bool sevenIsOn = false;
     bool eightIsOn = false;
-
+    bool baseSetUp = false;
     public float timer;
     public float writeRate = 1f;
 
@@ -53,8 +53,8 @@ public class ArduinoManager : MonoBehaviour
         //if (!zeroIsOn )
         //{
 
-        if (!zeroIsOn)
-        {
+        //if (!baseSetUp)
+        //{
             changeLedColor(0, 255, 0, 0);
             changeLedColor(1, 255, 0, 0);
             changeLedColor(2, 255, 0, 0);
@@ -64,10 +64,12 @@ public class ArduinoManager : MonoBehaviour
             changeLedColor(6, 255, 0, 0);
             changeLedColor(7, 255, 0, 0);
             changeLedColor(8, 255, 0, 0);
-            Invoke(nameof(Finish), 1f);
-        }
-            
-       
+
+            baseSetUp = true;
+            // Invoke(nameof(Finish), 1f);
+        //}
+
+
 
         // zeroIsOn = true;
         //}if(zeroIsOn && !oneIsOn)
@@ -208,6 +210,8 @@ public class ArduinoManager : MonoBehaviour
 
         Debug.Log("Data: " + data);
         serialPort.Write(data);
+        Invoke(nameof(Finish), 1f);
+        //WaitForSeconds(1);
     }
 
     public void changeLedColor2(int id, int r, int g, int b)

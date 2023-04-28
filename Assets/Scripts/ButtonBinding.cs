@@ -19,6 +19,8 @@ public class ButtonBinding : MonoBehaviour
 
     [SerializeField] private Country country;
 
+    [SerializeField] private ArduinoManager arduinoManager;
+
     private Color baseColor;
     public Color selectedColor;
     public Color warColor;
@@ -26,6 +28,13 @@ public class ButtonBinding : MonoBehaviour
     public Color neutralColor;
     public Color strategicColor;
     public Color alliedColor;
+
+    public List<int> allied = new List<int> { 0, 112, 192 };
+    public List<int> strategic = new List<int> { 128, 172, 162 };
+    public List<int> neutral = new List<int> { 255, 233, 132 };
+    public List<int> conflic = new List<int> { 255, 139, 78 };
+    public List<int> war = new List<int> { 255, 0, 0 };
+
 
     private void OnEnable()
     {
@@ -73,6 +82,7 @@ public class ButtonBinding : MonoBehaviour
             _displayText.text = country.Name;
             baseColor.a = 1f;
             image.color = baseColor;
+            arduinoManager.changeLedColor(country.ledIndex, 50, 50, 50);
             //Debug.Log("No the country selected");
             //image.color = new Color
         }else if (_lastCountrySelected.Value == country) //Is this country
@@ -80,6 +90,7 @@ public class ButtonBinding : MonoBehaviour
             _displayText.text = country.Name;
             selectedColor.a = 1f;
             image.color = selectedColor;
+            arduinoManager.changeLedColor(country.ledIndex, 100, 100, 100);
             //Debug.Log("the country selected = " + country);
         }
         else //is another country
@@ -99,23 +110,31 @@ public class ButtonBinding : MonoBehaviour
         {
             alliedColor.a = 1f;
             image.color = alliedColor;
-        }else if(relationshipScore >= 67) //strategic
+            arduinoManager.changeLedColor(country.ledIndex, allied[0], allied[1], allied[2]);
+        }
+        else if(relationshipScore >= 67) //strategic
         {
             strategicColor.a = 1f;
             image.color = strategicColor;
-        }else if (relationshipScore >= 34) //neutral
+            arduinoManager.changeLedColor(country.ledIndex, strategic[0], strategic[1], strategic[2]);
+        }
+        else if (relationshipScore >= 34) //neutral
         {
             neutralColor.a = 1f;
             image.color = neutralColor;
-        }else if(relationshipScore >= 17) // conflict
+            arduinoManager.changeLedColor(country.ledIndex, neutral[0], neutral[1], neutral[2]);
+        }
+        else if(relationshipScore >= 17) // conflict
         {
             conflictColor.a = 1f;
             image.color = conflictColor;
+            arduinoManager.changeLedColor(country.ledIndex, conflic[0], conflic[1], conflic[2]);
         }
         else //war
         {
             warColor.a = 1f;
             image.color = warColor;
+            arduinoManager.changeLedColor(country.ledIndex, war[0], war[1], war[2]);
         }
         //image.color.a = 1f;
     }

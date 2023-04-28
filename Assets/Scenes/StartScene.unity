@@ -295,8 +295,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0.0000038146973, y: -36.999996}
+  m_SizeDelta: {x: -36.0886, y: -37.7207}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &13979820
 MonoBehaviour:
@@ -671,13 +671,15 @@ RectTransform:
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1317357986}
+  - {fileID: 1487130366}
+  - {fileID: 334680945}
   m_Father: {fileID: 1747825142}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 21.524, y: -21.524}
+  m_SizeDelta: {x: -43.0481, y: -43.0481}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &135770796
 MonoBehaviour:
@@ -1461,7 +1463,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &293156526
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1471,8 +1473,8 @@ RectTransform:
   m_GameObject: {fileID: 293156525}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 104928182}
   m_Father: {fileID: 868043170}
@@ -1723,17 +1725,17 @@ RectTransform:
   m_GameObject: {fileID: 334680944}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.51, y: 0.4387106, z: 0.4387106}
+  m_LocalScale: {x: 0.08717948, y: 0.07499326, z: 0.07499326}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 869953542}
-  m_Father: {fileID: 1747825142}
-  m_RootOrder: 1
+  m_Father: {fileID: 135770795}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -229.72}
-  m_SizeDelta: {x: 400, y: 150}
+  m_AnchoredPosition: {x: 0.00000095367, y: -16}
+  m_SizeDelta: {x: 229.54572, y: 86.07983}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &334680946
 MonoBehaviour:
@@ -2076,8 +2078,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 43.8
-  m_fontSizeBase: 43.8
+  m_fontSize: 33.18
+  m_fontSizeBase: 33.18
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2164,8 +2166,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -39.268387}
-  m_SizeDelta: {x: 400, y: 150}
+  m_AnchoredPosition: {x: -0.0000011921, y: -18.9}
+  m_SizeDelta: {x: 174.17017, y: 65.31381}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &428290610
 MonoBehaviour:
@@ -2950,8 +2952,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -7.6596, y: 5.7447}
+  m_SizeDelta: {x: 84.6808, y: 88.5106}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &780675493
 GameObject:
@@ -3537,8 +3539,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 43.8
-  m_fontSizeBase: 43.8
+  m_fontSize: 35.5
+  m_fontSizeBase: 35.5
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -4926,8 +4928,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 8.97}
-  m_SizeDelta: {x: 75, y: 30}
+  m_AnchoredPosition: {x: 0.39823, y: 5}
+  m_SizeDelta: {x: 39.75454, y: 27.4152}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1223169019
 MonoBehaviour:
@@ -4979,8 +4981,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 4.8
-  m_fontSizeBase: 4.8
+  m_fontSize: 2.53
+  m_fontSizeBase: 2.53
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -5015,7 +5017,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: -0.32733727, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -5286,8 +5288,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 8.97}
-  m_SizeDelta: {x: 75, y: 30}
+  m_AnchoredPosition: {x: 0, y: 14.3}
+  m_SizeDelta: {x: 48.79189, y: 19.51675}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1317357987
 MonoBehaviour:
@@ -5753,20 +5755,20 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1487130365}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.17094018, y: 0.17094018, z: 0.17094018}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 805194382}
   - {fileID: 153429428}
   - {fileID: 1802734373}
-  m_Father: {fileID: 1747825142}
-  m_RootOrder: 2
+  m_Father: {fileID: 135770795}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0.000001239, y: 2.4}
   m_SizeDelta: {x: 160, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1487130367
@@ -7140,8 +7142,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 135770795}
-  - {fileID: 334680945}
-  - {fileID: 1487130366}
   m_Father: {fileID: 868043170}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

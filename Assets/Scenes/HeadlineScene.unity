@@ -2764,12 +2764,18 @@ MonoBehaviour:
   gameManager: {fileID: 1483572969}
   countryButton: {fileID: 406129848}
   country: {fileID: 11400000, guid: ce3db73a7eb10994698e4536a37cddf5, type: 2}
+  arduinoManager: {fileID: 1483572972}
   selectedColor: {r: 0.5882353, g: 0.5882353, b: 0.5882353, a: 0}
   warColor: {r: 1, g: 0.16862746, b: 0.09411766, a: 0}
   conflictColor: {r: 1, g: 0.54509807, b: 0.30588236, a: 0}
   neutralColor: {r: 1, g: 0.9176471, b: 0.5176471, a: 0}
   strategicColor: {r: 0.6039216, g: 0.7294118, b: 0.6039216, a: 0}
   alliedColor: {r: 0.20000002, g: 0.5372549, b: 0.7058824, a: 0}
+  allied: 0000000070000000c0000000
+  strategic: 80000000ac000000a2000000
+  neutral: ff000000e900000084000000
+  conflic: ff0000008b0000004e000000
+  war: ff0000000000000000000000
 --- !u!1 &412742310
 GameObject:
   m_ObjectHideFlags: 0
@@ -5429,12 +5435,18 @@ MonoBehaviour:
   gameManager: {fileID: 1483572969}
   countryButton: {fileID: 746846774}
   country: {fileID: 11400000, guid: e09537b1ee7a76344ae58e187b1bcebc, type: 2}
+  arduinoManager: {fileID: 1483572972}
   selectedColor: {r: 0.5882353, g: 0.5882353, b: 0.5882353, a: 0}
   warColor: {r: 1, g: 0.16862746, b: 0.09411766, a: 0}
   conflictColor: {r: 1, g: 0.54509807, b: 0.30588236, a: 0}
   neutralColor: {r: 1, g: 0.9176471, b: 0.5176471, a: 0}
   strategicColor: {r: 0.6039216, g: 0.7294118, b: 0.6039216, a: 0}
   alliedColor: {r: 0.20000002, g: 0.5372549, b: 0.7058824, a: 0}
+  allied: 0000000070000000c0000000
+  strategic: 80000000ac000000a2000000
+  neutral: ff000000e900000084000000
+  conflic: ff0000008b0000004e000000
+  war: ff0000000000000000000000
 --- !u!1 &747729544
 GameObject:
   m_ObjectHideFlags: 0
@@ -5494,12 +5506,18 @@ MonoBehaviour:
   gameManager: {fileID: 1483572969}
   countryButton: {fileID: 747729544}
   country: {fileID: 11400000, guid: 539821e86f075374b96408a82565beeb, type: 2}
+  arduinoManager: {fileID: 1483572972}
   selectedColor: {r: 0.5882353, g: 0.5882353, b: 0.5882353, a: 0}
   warColor: {r: 1, g: 0.16862746, b: 0.09411766, a: 0}
   conflictColor: {r: 1, g: 0.54509807, b: 0.30588236, a: 0}
   neutralColor: {r: 1, g: 0.9176471, b: 0.5176471, a: 0}
   strategicColor: {r: 0.6039216, g: 0.7294118, b: 0.6039216, a: 0}
   alliedColor: {r: 0.20000002, g: 0.5372549, b: 0.7058824, a: 0}
+  allied: 0000000070000000c0000000
+  strategic: 80000000ac000000a2000000
+  neutral: ff000000e900000084000000
+  conflic: ff0000008b0000004e000000
+  war: ff0000000000000000000000
 --- !u!114 &747729547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6763,12 +6781,18 @@ MonoBehaviour:
   gameManager: {fileID: 1483572969}
   countryButton: {fileID: 845334938}
   country: {fileID: 11400000, guid: b7f950b49300c4e4687a0d67ed11299a, type: 2}
+  arduinoManager: {fileID: 1483572972}
   selectedColor: {r: 0.5882353, g: 0.5882353, b: 0.5882353, a: 0}
   warColor: {r: 1, g: 0.16862746, b: 0.09411766, a: 0}
   conflictColor: {r: 1, g: 0.54509807, b: 0.30588236, a: 0}
   neutralColor: {r: 1, g: 0.9176471, b: 0.5176471, a: 0}
   strategicColor: {r: 0.6039216, g: 0.7294118, b: 0.6039216, a: 0}
   alliedColor: {r: 0.20000002, g: 0.5372549, b: 0.7058824, a: 0}
+  allied: 0000000070000000c0000000
+  strategic: 80000000ac000000a2000000
+  neutral: ff000000e900000084000000
+  conflic: ff0000008b0000004e000000
+  war: ff0000000000000000000000
 --- !u!114 &845334941
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7168,12 +7192,18 @@ MonoBehaviour:
   gameManager: {fileID: 1483572969}
   countryButton: {fileID: 858144941}
   country: {fileID: 11400000, guid: 9b9d206c7dc9a0e428ee10e2685de5dc, type: 2}
+  arduinoManager: {fileID: 1483572972}
   selectedColor: {r: 0.5882353, g: 0.5882353, b: 0.5882353, a: 0}
   warColor: {r: 1, g: 0.16862746, b: 0.09411766, a: 0}
   conflictColor: {r: 1, g: 0.54509807, b: 0.30588236, a: 0}
   neutralColor: {r: 1, g: 0.9176471, b: 0.5176471, a: 0}
   strategicColor: {r: 0.6039216, g: 0.7294118, b: 0.6039216, a: 0}
   alliedColor: {r: 0.20000002, g: 0.5372549, b: 0.7058824, a: 0}
+  allied: 0000000070000000c0000000
+  strategic: 80000000ac000000a2000000
+  neutral: ff000000e900000084000000
+  conflic: ff0000008b0000004e000000
+  war: ff0000000000000000000000
 --- !u!1 &870690749
 GameObject:
   m_ObjectHideFlags: 0
@@ -8597,12 +8627,18 @@ MonoBehaviour:
   gameManager: {fileID: 1483572969}
   countryButton: {fileID: 1025045503}
   country: {fileID: 11400000, guid: 489f3b3399ab9564b95f0f7636840823, type: 2}
+  arduinoManager: {fileID: 1483572972}
   selectedColor: {r: 0.5882353, g: 0.5882353, b: 0.5882353, a: 0}
   warColor: {r: 1, g: 0.16862746, b: 0.09411766, a: 0}
   conflictColor: {r: 1, g: 0.54509807, b: 0.30588236, a: 0}
   neutralColor: {r: 1, g: 0.9176471, b: 0.5176471, a: 0}
   strategicColor: {r: 0.6039216, g: 0.7294118, b: 0.6039216, a: 0}
   alliedColor: {r: 0.20000002, g: 0.5372549, b: 0.7058824, a: 0}
+  allied: 0000000070000000c0000000
+  strategic: 80000000ac000000a2000000
+  neutral: ff000000e900000084000000
+  conflic: ff0000008b0000004e000000
+  war: ff0000000000000000000000
 --- !u!1 &1037706791
 GameObject:
   m_ObjectHideFlags: 0
@@ -9891,12 +9927,18 @@ MonoBehaviour:
   gameManager: {fileID: 1483572969}
   countryButton: {fileID: 1238607393}
   country: {fileID: 11400000, guid: 7d944fdfd708138468502fc221da580b, type: 2}
+  arduinoManager: {fileID: 1483572972}
   selectedColor: {r: 0.5882353, g: 0.5882353, b: 0.5882353, a: 0}
   warColor: {r: 1, g: 0.16862746, b: 0.09411766, a: 0}
   conflictColor: {r: 1, g: 0.54509807, b: 0.30588236, a: 0}
   neutralColor: {r: 1, g: 0.9176471, b: 0.5176471, a: 0}
   strategicColor: {r: 0.6039216, g: 0.7294118, b: 0.6039216, a: 0}
   alliedColor: {r: 0.20000002, g: 0.5372549, b: 0.7058824, a: 0}
+  allied: 0000000070000000c0000000
+  strategic: 80000000ac000000a2000000
+  neutral: ff000000e900000084000000
+  conflic: ff0000008b0000004e000000
+  war: ff0000000000000000000000
 --- !u!1 &1247695753
 GameObject:
   m_ObjectHideFlags: 0
@@ -10050,12 +10092,18 @@ MonoBehaviour:
   gameManager: {fileID: 1483572969}
   countryButton: {fileID: 1247695753}
   country: {fileID: 11400000, guid: bb2ce2e8acb1e2745b7f1ae4a10af4bd, type: 2}
+  arduinoManager: {fileID: 1483572972}
   selectedColor: {r: 0.5882353, g: 0.5882353, b: 0.5882353, a: 0}
   warColor: {r: 1, g: 0.16862746, b: 0.09411766, a: 0}
   conflictColor: {r: 1, g: 0.54509807, b: 0.30588236, a: 0}
   neutralColor: {r: 1, g: 0.9176471, b: 0.5176471, a: 0}
   strategicColor: {r: 0.6039216, g: 0.7294118, b: 0.6039216, a: 0}
   alliedColor: {r: 0.20000002, g: 0.5372549, b: 0.7058824, a: 0}
+  allied: 0000000070000000c0000000
+  strategic: 80000000ac000000a2000000
+  neutral: ff000000e900000084000000
+  conflic: ff0000008b0000004e000000
+  war: ff0000000000000000000000
 --- !u!1 &1249240887
 GameObject:
   m_ObjectHideFlags: 0
@@ -16364,12 +16412,18 @@ MonoBehaviour:
   gameManager: {fileID: 1483572969}
   countryButton: {fileID: 1973049973}
   country: {fileID: 11400000, guid: ea2a88cd7aed90b4ba4684739dcf78a0, type: 2}
+  arduinoManager: {fileID: 1483572972}
   selectedColor: {r: 0.5882353, g: 0.5882353, b: 0.5882353, a: 0}
   warColor: {r: 1, g: 0.16862746, b: 0.09411766, a: 0}
   conflictColor: {r: 1, g: 0.54509807, b: 0.30588236, a: 0}
   neutralColor: {r: 1, g: 0.9176471, b: 0.5176471, a: 0}
   strategicColor: {r: 0.6039216, g: 0.7294118, b: 0.6039216, a: 0}
   alliedColor: {r: 0.20000002, g: 0.5372549, b: 0.7058824, a: 0}
+  allied: 0000000070000000c0000000
+  strategic: 80000000ac000000a2000000
+  neutral: ff000000e900000084000000
+  conflic: ff0000008b0000004e000000
+  war: ff0000000000000000000000
 --- !u!1 &1980101959
 GameObject:
   m_ObjectHideFlags: 0

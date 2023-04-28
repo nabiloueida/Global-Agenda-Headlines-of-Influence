@@ -32,6 +32,8 @@ public class TestPrinter : MonoBehaviour
 
     bool StillPrinting()
     {
+        if (words == null)
+            return false;
         if (next < words.Length)
         {
             if (words[next].Equals(words[0], StringComparison.OrdinalIgnoreCase))
